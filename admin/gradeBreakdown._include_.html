@@ -188,15 +188,17 @@
       <p><strong>During:</strong></p>
       <ol>
         <li><strong>Take note of your team to test and your <em>Tester ID</em></strong>. Both will be given to you by the teaching team (distributed via IVLE gradebook).</li>
-        <li><strong>Download from IVLE all files</strong> submitted by the team <span class="dimmed"> (i.e. jar file, user guide, developer guide, sample data, test script, project portfolio pages)</span><mark>into an empty folder</mark>.</li>
+        <li><strong>Download from IVLE all files</strong> submitted by the team <span class="dimmed"> (i.e. jar file, User Guide, Developer Guide, and Project Portfolio Pages)</span><mark>into an empty folder</mark>.</li>
         <li><strong>[~40 minutes] Test the product and report bugs</strong>
           <ul>
             <li>Launch the jar file. Test it.</li>
-            <li>You can use the provided <em>test script</em> and <em>user guide</em> in your testing.</li>
+            <li>You can use Developer Guide <em>(Appendix G: Instructions for Manual Testing)</em> and the <em>User Guide</em> in your testing.</li>
             <li>No need to test features that are driven by GUI inputs (e.g. buttons, menus, etc.) <span class="dimmed"> Reason: Only CLI-driven features can earn credit, as per given project constraints.</span> Some features might have both a GUI-driven
               and CLI-driven ways to invoke them, in which case test only the CLI-driven way of invoking it.</li>
-            <li>The test script can provide you some guidance but if you follow the test script strictly, you are unlikely to find many bugs. You can deviate from the script to probe areas that are more likely to have bugs.</li>
+            <li>The testing instructions in the Developer Guide can provide you some guidance but if you follow those instructions strictly, you are unlikely to find many bugs. You can deviate from the instructions to probe areas that are more likely to have
+              bugs.</li>
             <li>You can do <em>acceptance</em> testing as well as <em>system</em> testing.</li>
+            <li>Omit feature that existed in AB4. Instead, test features the team has added.</li>
             <li>Report bugs in the <a href="https://github.com/nus-cs2103-AY1718S2/pe/issues">practical exam issue tracker</a>, <mark>not in the team's repo</mark>.
               <ul>
                 <li>Issue title format: <code>[Tester ID] Issue description</code><span class="dimmed"> e.g. <code>[26] Empty name crashes app</code></span></li>
@@ -205,7 +207,7 @@
             </li>
             <li>Report bugs only. Do not post suggestions. These are considered bugs:
               <ul>
-                <li>Behavior differs from the user guide (or test script)</li>
+                <li>Behavior differs from the User Guide (or Developer Guide)</li>
                 <li>A legitimate user behavior is not handled <span class="dimmed"> e.g. incorrect commands, extra parameters</span></li>
                 <li>Behavior is not specified and differs from normal expectations <span class="dimmed"> e.g. error message does not match the error</span></li>
               </ul>
