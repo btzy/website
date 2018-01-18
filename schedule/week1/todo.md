@@ -19,7 +19,7 @@ Exchange students need to use the ORATUT system to register for the tutorials. Y
 
 <panel type="danger" header="Submit Pre-Module Survey ==(Compulsory)== :alarm_clock: :star:" expandable> 
 
-_Pre-Module Survey_ will be available on IVLE **Week 1 Monday - Friday 2359 :alarm_clock:**. %%We need all of you to submit it because it tells us some important information about you, especially your GitHub ID.%%
+Complete _Pre-Module Survey_ on IVLE before **Week 1 Sunday 2359 :alarm_clock:**. %%We need all of you to submit it because it tells us some important information about you, especially your GitHub ID.%%
 
 </panel>
 
