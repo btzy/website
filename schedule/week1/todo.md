@@ -40,7 +40,7 @@ Here are some module admin info to read around this time:
 <include type="danger" name="%%Admin »%% Project: The Product :star:" src="../../admin/project-product.md"  dynamic />
 <include type="danger" src="../../admin/project-scope.md" name="%%Admin »%% Project: Scope :star:" dynamic />
 
-<include type="warning" src="../../admin/textBooks.md" name="%%Admin »%% Text Books :star::star:" dynamic />
+<include type="warning" src="../../admin/textbooks.md" name="%%Admin »%% Text Books :star::star:" dynamic />
 <include type="warning" src="../../admin/programming-languages.md" name="%%Admin »%% Programming Language :star::star:" dynamic />
 <include type="warning" src="../../admin/project-constraints.md" name="%%Admin »%% Project: Constraints :star::star:"  dynamic />
 <include type="warning" src="../../admin/project-deliverables.md" name="%%Admin »%% Project: Deliverables :star::star:"  dynamic />
