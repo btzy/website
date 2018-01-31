@@ -8,12 +8,12 @@
   <include src="overview/tutorialSchedule.md"/>
 </panel>
 <include src="overview/index.html" name="For all weeks" dynamic />
-<include src="week1/index.html" name=":exclamation: Week 1 [Jan 15]" dynamic />
-<panel header=":exclamation: Week 2 [Jan 22]" expanded no-close>
-<include src="week2/index.html"/> 
+<include src="week1/index.html" name="Week 1 [Jan 15]" dynamic />
+<include src="week2/index.html" name=":exclamation: Week 2 [Jan 22]" dynamic />
+<panel header=":exclamation: Week 3 [Jan 29]" expanded no-close>
+<include src="week3/index.html"/> 
 </panel>
-<include src="week3/index.html" name=":exclamation: Week 3 [Jan 29]" dynamic />
-<include src="week4/index.html" name="Week 4 [Feb 5]" dynamic />
+<include src="week4/index.html" name=":exclamation: Week 4 [Feb 5]" dynamic />
 <include src="week5/index.html" name="Week 5 [Feb 12]" dynamic />
 <include src="week6/index.html" name="Week 6 [Feb 19]" dynamic />
 <include src="week7/index.html" name="Week 7 [Mar 5]" dynamic />
