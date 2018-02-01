@@ -1,3 +1,5 @@
+%%[<a href="{{baseUrl}}/schedule/week8/outcomes.html" target="_blank">Open _Outcomes_ in a new Window <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>]%%
+
 <panel header=":trophy: Outcomes" ctrl-lvl="1" expanded no-close>
   <include src="outcomes.md#main" />
 </panel>
