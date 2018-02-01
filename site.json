@@ -45,8 +45,12 @@
       "title": "Week 2 - Outcomes"
     },
     {
-      "src": "schedule/week3/index.html",
+      "src": "schedule/week3/index.md",
       "title": "Week 3"
+    },
+    {
+      "src": "schedule/week3/outcomes.md",
+      "title": "Week 3 - Outcomes"
     },
     {
       "src": "book/index.md",
