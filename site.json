@@ -37,8 +37,12 @@
       "title": "Week 1"
     },
     {
-      "src": "schedule/week2/index.html",
+      "src": "schedule/week2/index.md",
       "title": "Week 2"
+    },
+    {
+      "src": "schedule/week2/outcomes.md",
+      "title": "Week 2 - Outcomes"
     },
     {
       "src": "schedule/week3/index.html",

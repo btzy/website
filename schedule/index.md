@@ -9,7 +9,7 @@
 </panel>
 <include src="overview/index.html" name="For all weeks" dynamic />
 <include src="week1/index.html" name="Week 1 [Jan 15]" dynamic />
-<include src="week2/index.html" name=":exclamation: Week 2 [Jan 22]" dynamic />
+<include src="week2/index.md" name=":exclamation: Week 2 [Jan 22]" dynamic />
 <panel header=":exclamation: Week 3 [Jan 29]" expanded no-close>
 <include src="week3/index.html"/> 
 </panel>

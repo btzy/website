@@ -1,3 +1,6 @@
+
+%%:bulb: Right-click [here]({{baseUrl}}/schedule/week2/outcomes.html) and choose 'open in new tab' to open _Learning Outcomes_ in a new tab.%%
+
 <panel header=":trophy: Outcomes" ctrl-lvl="1" expanded no-close>
   <include src="outcomes.md#main" />
 </panel>
