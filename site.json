@@ -33,7 +33,7 @@
       "title": "CS2103/T Website - Tutorial Schedule"
     },
     {
-      "src": "schedule/week1/index.html",
+      "src": "schedule/week1/index.md",
       "title": "Week 1"
     },
     {
@@ -45,8 +45,92 @@
       "title": "Week 2 - Outcomes"
     },
     {
-      "src": "schedule/week3/index.html",
+      "src": "schedule/week3/index.md",
       "title": "Week 3"
+    },
+    {
+      "src": "schedule/week3/outcomes.md",
+      "title": "Week 3 - Outcomes"
+    },
+    {
+      "src": "schedule/week4/index.md",
+      "title": "Week 4"
+    },
+    {
+      "src": "schedule/week4/outcomes.md",
+      "title": "Week 4 - Outcomes"
+    },
+    {
+      "src": "schedule/week5/index.md",
+      "title": "Week 5"
+    },
+    {
+      "src": "schedule/week5/outcomes.md",
+      "title": "Week 5 - Outcomes"
+    },
+    {
+      "src": "schedule/week6/index.md",
+      "title": "Week 6"
+    },
+    {
+      "src": "schedule/week6/outcomes.md",
+      "title": "Week 6 - Outcomes"
+    },
+    {
+      "src": "schedule/week7/index.md",
+      "title": "Week 7"
+    },
+    {
+      "src": "schedule/week7/outcomes.md",
+      "title": "Week 7 - Outcomes"
+    },
+    {
+      "src": "schedule/week8/index.md",
+      "title": "Week 8"
+    },
+    {
+      "src": "schedule/week8/outcomes.md",
+      "title": "Week 8 - Outcomes"
+    },
+    {
+      "src": "schedule/week9/index.md",
+      "title": "Week 9"
+    },
+    {
+      "src": "schedule/week9/outcomes.md",
+      "title": "Week 9 - Outcomes"
+    },
+    {
+      "src": "schedule/week10/index.md",
+      "title": "Week 10"
+    },
+    {
+      "src": "schedule/week10/outcomes.md",
+      "title": "Week 10 - Outcomes"
+    },
+    {
+      "src": "schedule/week11/index.md",
+      "title": "Week 11"
+    },
+    {
+      "src": "schedule/week11/outcomes.md",
+      "title": "Week 11 - Outcomes"
+    },
+    {
+      "src": "schedule/week12/index.md",
+      "title": "Week 12"
+    },
+    {
+      "src": "schedule/week12/outcomes.md",
+      "title": "Week 12 - Outcomes"
+    },
+    {
+      "src": "schedule/week13/index.md",
+      "title": "Week 13"
+    },
+    {
+      "src": "schedule/week13/outcomes.md",
+      "title": "Week 13 - Outcomes"
     },
     {
       "src": "book/index.md",
