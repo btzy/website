@@ -136,7 +136,7 @@ If you **reused code snippets found on the Internet** %%&nbsp;e.g. from StackOve
 * If you read the code to understand the approach and implemented it yourself, mention it as a comment<br>
   :package: Example:
   ```java
-  //Solution below adpated from https://stackoverflow.com/a/16252290`
+  //Solution below adpated from https://stackoverflow.com/a/16252290
   {Your implmentation of the reused solution here ...}
   ```
 * If you copy-pasted a non-trivial code block (possibly with minor modifications %%&nbsp;renaming, layout changes, changes to comments, etc.%%), also mark the code block as reused code (using <trigger trigger="click" for="modal:reusePolicy-collateSyntax">Collate Tool Syntax</trigger>)<br>
