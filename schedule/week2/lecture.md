@@ -1,4 +1,4 @@
 
-**Slides**: [[L1 Recap](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L1Recap.pptx)] [[Good Code, Bad Code](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L2P1.%20Good%20Code,%20Bad%20Code.pptx)] [[Refactoring - From Turkey to Peacock in Thousand Steps](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L2P2.%20Refactoring%20-%20From%20Turkey%20to%20Peacock%20in%20Thousand%20Steps.pptx)] [[Git Up to Speed with RCS](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L2P3.%20Git%20Up%20to%20Speed%20with%20RCS.pptx)]
-
 **E-learning**: [[Toward Production Quality Code](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E2.%20Toward%20Production%20Quality%20Code.mp4)] [[Introduction to Revision Control](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E2.%20Introduction%20to%20Revision%20Control.mp4)]
+
+**Slides**: [[L1 Recap](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L1Recap.pptx)] [[Good Code, Bad Code](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L2P1.%20Good%20Code,%20Bad%20Code.pptx)] [[Refactoring - From Turkey to Peacock in Thousand Steps](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L2P2.%20Refactoring%20-%20From%20Turkey%20to%20Peacock%20in%20Thousand%20Steps.pptx)] [[Git Up to Speed with RCS](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L2P3.%20Git%20Up%20to%20Speed%20with%20RCS.pptx)]

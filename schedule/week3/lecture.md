@@ -94,4 +94,4 @@ One class you can have is `Route`
 
 **E-learning**: [[OOP - Basics](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E3P1.%20OOP%20-%20Basics.mp4)] [[OOP - Basic UML](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E3P2.%20OOP%20-%20Basic%20UML.mp4)]
 
-[[slides](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L3.pptx)]
+**Slides**: [[L2 Recap](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L2Recap.pptx)] [[Object-Oriented Programming - Basics](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L3P1.%20Object-Oriented%20Programming%20-%20Basics.pptx)] [[Exceptions - Stuff happens. Deal with it](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L3P2.%20Exceptions%20-%20Stuff%20happens.%20Deal%20with%20it.pptx)]
