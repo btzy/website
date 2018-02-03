@@ -6,4 +6,4 @@
 
 If you choose option 2, we recommend that you complete the following LOs first; there are many ways to create PRs but we expect you to create PRs in a specific way, as specified in that LOs. 
 
-<dynamic-panel type="danger" src="outcome-pr.md" header="**`W4.8` Can create PRs on GitHub** :star:" no-close />
+<dynamic-panel type="danger" src="outcome-pr.md" header="**`W4.7` Can create PRs on GitHub** :star:" no-close />
