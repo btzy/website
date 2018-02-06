@@ -6,7 +6,7 @@ In this week's tutorial we would like to ensure that,
 
 %%Reason: These two skills are going to be essential for you in future weeks because most of your work will require creating PRs.%%
 
-Therefore, we **strongly encourage you to achieve the `W4.1 Can create PRs on GitHub` before coming to the tutorial**. If not, you'll have to do it during the tutorial and then there will be less time for you to do the other activities we have planned for this tutorial
+Therefore, we **strongly encourage you to achieve the `W4.7 Can create PRs on GitHub` before coming to the tutorial**. If not, you'll have to do it during the tutorial and then there will be less time for you to do the other activities we have planned for this tutorial
 
 </tip-box>
 
