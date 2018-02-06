@@ -7,25 +7,25 @@
 
 <div id="main">
 
-### Requirements:
+### Quality Assurance:
 
-<dynamic-panel type="warning" src="outcome-requirements.md" header="**`W6.1` Can explain requirements** :star::star:" no-close />
+<dynamic-panel type="danger" src="outcome-junit.md" header="**`W6.1` Can use simple JUnit tests** :star:" no-close />
 
-<dynamic-panel type="info" src="outcome-gatheringRequirement.md" header="**`W6.2` Can explain some techniques for gathering requirements** :star::star::star:" no-close />
+### Project Management:
 
-<dynamic-panel type="danger" src="outcome-specifyingRequirement.md" header="**`W6.3` Can use some techniques for specifying requirements** :star:" no-close />
+<dynamic-panel type="danger" src="outcome-forkingWorkflow.md" header="**`W6.2` Can follow Forking Workflow** :star:" no-close />
 
 ### Design:
 
-<dynamic-panel type="danger" src="outcome-sequenceDiagram.md" header="**`W6.4` Can interpret basic sequence diagrams** :star:" no-close />
+<dynamic-panel type="danger" src="outcome-sequenceDiagram.md" header="**`W6.3` Can interpret basic sequence diagrams** :star:" no-close />
 
 ### Implementation:
 
-<dynamic-panel type="danger" src="outcome-polymorphism.md" header="**`W6.5` Can implement polymorphism** :star:" no-close />
+<dynamic-panel type="danger" src="outcome-polymorphism.md" header="**`W6.4` Can implement polymorphism** :star:" no-close />
 
 <!-- ==================================================================================================== -->
 
-<panel type="info" header="**`W6.6` Can use JavaFX to build a simple GUI** :star::star::star:" no-close>
+<panel type="info" header="**`W6.5` Can use JavaFX to build a simple GUI** :star::star::star:" no-close>
   <include src="../../book/javaTools/javaFXBasic/full.md" />
   <panel header=":dart: Evidence" expanded>
 
