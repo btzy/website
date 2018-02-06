@@ -42,17 +42,17 @@
 <include src="outcome-library.md" />
 -->
 
-### Quality Assurance:
+### Requirements:
 
-<dynamic-panel type="danger" src="outcome-junit.md" header="**`W5.8` Can use simple JUnit tests** :star:" no-close />
+<dynamic-panel type="warning" src="outcome-requirements.md" header="**`W5.8` Can explain requirements** :star::star:" no-close />
 
-### Project Management:
+<dynamic-panel type="info" src="outcome-gatheringRequirement.md" header="**`W5.9` Can explain some techniques for gathering requirements** :star::star::star:" no-close />
 
-<dynamic-panel type="danger" src="outcome-forkingWorkflow.md" header="**`W5.9` Can follow Forking Workflow** :star:" no-close />
+<dynamic-panel type="danger" src="outcome-specifyingRequirement.md" header="**`W5.10` Can use some techniques for specifying requirements** :star:" no-close />
 
 ### Other:
 
-<panel type="danger" header="**`W5.10` Can work with a 2KLoC code base** :star: ==[Compulsory]==" expandable>
+<panel type="danger" header="**`W5.11` Can work with a 2KLoC code base** :star: ==[Compulsory]==" expandable>
   <panel header=":dart: Evidence" expanded>
     <include src="2kloc.md" />
   </panel>
