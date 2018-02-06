@@ -2,7 +2,7 @@
 <p></p>
 <panel header="[10%] Participation" minmized="">
   <div>
-    <p>Participation marks for each phase is <mark>given on a 'all or nothing' basis</mark><span class="dimmed"> i.e., you get either <code>5</code> or <code>0</code> marks</span>.</p>
+    <p>Participation marks for each phase is <mark>given on a 'all or nothing' basis</mark> <span class="dimmed"> i.e., you get either <code>5</code> or <code>0</code> marks</span>.</p>
     <p>To get the full marks allocated for participation you should meet a minimal bar on all the following criteria, <mark>evaluated based on peer evaluations and tutor observations</mark>. We will also take into account data recorded in other systems e.g.
       GitHub, IVLE.</p>
     <ul>
@@ -39,7 +39,7 @@
     <p>❗️ you will lose <em>all</em> participation marks if,</p>
     <ul>
       <li>if you receive <strong>multiple <code>Below Average</code>/<code>Poor</code> ratings</strong> for any of the criteria above, or,</li>
-      <li>if you <strong>miss more than one compulsory tasks</strong><span class="dimmed"> (e.g. submitting peer evaluations, taking part in peer testing, compulsory LOs)</span></li>
+      <li>if you <strong>miss more than one compulsory tasks</strong> <span class="dimmed"> (e.g. submitting peer evaluations, taking part in peer testing, compulsory LOs)</span></li>
     </ul>
     <p>The following criteria will be assessed but <strong>considered only for pushing a student's grade from A to A+ and recruiting future tutors/interns</strong>.</p>
     <ul>
@@ -67,9 +67,14 @@
         <p>Testing is a Q&amp;A activity</p>
       </blockquote>
     </tip-box>
-    <p>Unless stated otherwise, the meaning of answer options are<br><strong>A.</strong><code>True</code><br><strong>B.</strong> Option not used<br><strong>C.</strong><code>Question unclear</code> (in this case, write down your doubt in the question paper)<br><strong>D.</strong>      Option not used<br><strong>E.</strong><code>False</code></p>
+    <p>Unless stated otherwise, the meaning of answer options are<br>
+      <strong>A.</strong> <code>True</code><br>
+      <strong>B.</strong> Option not used<br>
+      <strong>C.</strong> <code>Question unclear</code> (in this case, write down your doubt in the question paper)<br>
+      <strong>D.</strong> Option not used<br>
+      <strong>E.</strong> <code>False</code></p>
     <p><strong>Incorrect answers receive negative marks.</strong> Here is an example marking scheme:</p>
-    <p>Answer correct <strong>(+0.24)</strong><br> Option <code>C</code><strong>(0)</strong><br> No answer <strong>(0)</strong><br> Answer incorrect <strong>(-0.24)</strong><br></p>
+    <p>Answer correct <strong>(+0.24)</strong><br> Option <code>C</code> <strong>(0)</strong><br> No answer <strong>(0)</strong><br> Answer incorrect <strong>(-0.24)</strong><br></p>
     <p><span class="dimmed"> Negative marks are necessary because all questions are True/False type. Without negative marks, anyone can score roughly half the marks by simply choosing the same option for all questions.</span></p>
     <p><strong>All questions carry equal marks.</strong></p>
     <p>The exam paper has 100 questions.</p>
@@ -130,8 +135,20 @@
       <p>Evaluates:</p>
       <p><strong>A. Code quality/quantity:</strong></p>
       <p>How good your implementation is, in terms of the quality and the quantity of the code you have written yourself.</p>
-      <p>Based on: an inspection of the collated code (submitted in your <code>/collated/*.md</code> files).</p><span id="code-quality-tips"><panel header=":bulb: Tips: how to score high for code quality" no-close=""><ul><li><p>Ensure your code has at least some evidence of these (see <a href="../book/errorHandling/index.html">here</a> for more info)</p><ul><li>logging</li><li>exceptions</li><li>assertions</li><li>defensive coding</li></ul></li><li><p>Ensure there are no <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html">coding standard</a> violations <span class="dimmed"> e.g. all boolean variables/methods sounds like booleans</span>.
-      Checkstyle can prevent only <em>some</em> coding standard violations; others need to be checked manually.</p>
+      <p>Based on: an inspection of the collated code (submitted in your <code>/collated/*.md</code> files).</p>
+      <span id="code-quality-tips">
+<panel header=":bulb: Tips: how to score high for code quality" no-close="">
+<ul>
+<li>
+<p>Ensure your code has at least some evidence of these (see <a href="../book/errorHandling/index.html">here</a> for more info)</p>
+<ul>
+<li>logging</li>
+<li>exceptions</li>
+<li>assertions</li>
+<li>defensive coding</li></ul></li>
+<li>
+<p>Ensure there are no <a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html">coding standard</a> violations <span class="dimmed"> e.g. all boolean variables/methods sounds like booleans</span>. Checkstyle can prevent
+      only <em>some</em> coding standard violations; others need to be checked manually.</p>
       </li>
       <li>
         <p>Ensure <a href="../book/codeQuality/maximiseReadability/intermediate/index.html">SLAP</a> is applied at a reasonable level. Long methods or deeply-nested code are symptoms of low-SLAP may be counted against your code quality.</p>
@@ -180,7 +197,7 @@
       <div>
         <p><strong>Preparation</strong>:</p>
         <ul>
-          <li>Ensure you have access to a <strong>computer that is able to run module projects</strong><span class="dimmed"> e.g. has the right Java version</span>.</li>
+          <li>Ensure you have access to a <strong>computer that is able to run module projects</strong> <span class="dimmed"> e.g. has the right Java version</span>.</li>
           <li><strong>Have a good screen grab tool</strong> with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.</li>
           <li>💡 You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in GitHub issue tracker.</li>
         </ul>
@@ -188,7 +205,7 @@
       <p><strong>During:</strong></p>
       <ol>
         <li><strong>Take note of your team to test and your <em>Tester ID</em></strong>. Both will be given to you by the teaching team (distributed via IVLE gradebook).</li>
-        <li><strong>Download from IVLE all files</strong> submitted by the team <span class="dimmed"> (i.e. jar file, User Guide, Developer Guide, and Project Portfolio Pages)</span><mark>into an empty folder</mark>.</li>
+        <li><strong>Download from IVLE all files</strong> submitted by the team <span class="dimmed"> (i.e. jar file, User Guide, Developer Guide, and Project Portfolio Pages)</span> <mark>into an empty folder</mark>.</li>
         <li><strong>[~40 minutes] Test the product and report bugs</strong>
           <ul>
             <li>Launch the jar file. Test it.</li>
@@ -201,7 +218,7 @@
             <li>Omit feature that existed in AB4. Instead, test features the team has added.</li>
             <li>Report bugs in the <a href="https://github.com/nus-cs2103-AY1718S2/pe/issues">practical exam issue tracker</a>, <mark>not in the team's repo</mark>.
               <ul>
-                <li>Issue title format: <code>[Tester ID] Issue description</code><span class="dimmed"> e.g. <code>[26] Empty name crashes app</code></span></li>
+                <li>Issue title format: <code>[Tester ID] Issue description</code> <span class="dimmed"> e.g. <code>[26] Empty name crashes app</code></span></li>
                 <li>Do not use team ID in bug reports <span class="dimmed"> Reason: to prevent others copying your bug reports</span></li>
               </ul>
             </li>
@@ -275,7 +292,7 @@
               </ul>
             </li>
             <li>
-              <p><strong>D. Depth of feature (major feature)</strong> [👤]: Evaluate <mark>the major feature</mark> done by the student for difficulty, depth, and completeness. Note: examples given below assumes AB4 did not have commands<code>edit</code><code>undo</code><code>redo</code></p>
+              <p><strong>D. Depth of feature (major feature)</strong> [👤]: Evaluate <mark>the major feature</mark> done by the student for difficulty, depth, and completeness. Note: examples given below assumes AB4 did not have commands<code>edit</code>                <code>undo</code> <code>redo</code></p>
               <ul>
                 <li><code>low</code> : an easy feature <span class="dimmed"> e.g. make the existing <em>find</em> command case insensitive</span></li>
                 <li><code>medium</code> : moderately difficult feature, barely acceptable implementation <span class="dimmed"> e.g. an <em>edit</em> command that requires the user to type <em>all</em> fields, even the ones that are not being edited</span></li>
