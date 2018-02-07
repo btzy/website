@@ -15,8 +15,7 @@
   <link rel="stylesheet" href="/website/css/main.css">
   <link rel="stylesheet" href="/website/css/schedule.css">
   <div>
-    <navbar placement="top" type="inverse">
-      <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T-AY1718S2</a>
+    <navbar placement="top" type="inverse"><a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T-AY1718S2</a>
       <li><a href="/website/index.html">Schedule</a></li>
       <dropdown text="Textbook">
         <li><a href="/website/book/index.html" target="_blank"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Table of Contents</a></li>
@@ -34,7 +33,7 @@
         <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Forum</a></li>
       </dropdown>
       <dropdown text="Links">
-        <li><a href="https://github.com/nus-cs2103-AY1718S2/website/issues" target="_blank"> <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Report Bugs</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/website/issues" target="_blank"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Report Bugs</a></li>
         <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Forum</a></li>
         <li><a href="/website/schedule/overview/tutorialSchedule.html" target="_blank"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
         <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
@@ -52,7 +51,7 @@
     <panel header=":calendar: Tutorial Schedule" expandable="" no-close="">
       <div>
         <tip-box type="important">
-          <p>Our tutorial IDs are different from CORS. Format: <code>W09</code> means <code>Wednesday</code> <code>0900</code> and so on.</p>
+          <p>Our tutorial IDs are different from CORS. Format: <code>W09</code> means <code>Wednesday</code><code>0900</code> and so on.</p>
         </tip-box>
         <table class="markbind-table table">
           <thead>
@@ -210,9 +209,10 @@
               <p>
                 <panel type="danger" src="/website\admin\appendixB-policies._include_.html#policy-plagiarism" name="%%Admin »%% Policy on plagiarism :star:" fragment="policy-plagiarism" header="%%Admin »%% Policy on plagiarism :star:" isOpen="false"
                   no-close="true" no-switch="true"></panel>
-                <panel type="danger" src="/website\admin\appendixB-policies._include_.html#policy-reuse" name="%%Admin »%% Policy on reuse :star:" fragment="policy-reuse" header="%%Admin »%% Policy on reuse :star:" isOpen="false" no-close="true" no-switch="true"></panel>
-                <panel type="danger" src="/website\admin\appendixB-policies._include_.html#policy-outsiderHelp" name="%%Admin »%% Policy on help from outsiders :star:" fragment="policy-outsiderHelp" header="%%Admin »%% Policy on help from outsiders :star:" isOpen="false"
-                  no-close="true" no-switch="true"></panel>
+                <panel type="danger" src="/website\admin\appendixB-policies._include_.html#policy-reuse" name="%%Admin »%% Policy on reuse :star:" fragment="policy-reuse" header="%%Admin »%% Policy on reuse :star:" isOpen="false" no-close="true"
+                  no-switch="true"></panel>
+                <panel type="danger" src="/website\admin\appendixB-policies._include_.html#policy-outsiderHelp" name="%%Admin »%% Policy on help from outsiders :star:" fragment="policy-outsiderHelp" header="%%Admin »%% Policy on help from outsiders :star:"
+                  isOpen="false" no-close="true" no-switch="true"></panel>
               </p>
               <p>
                 <panel type="info" src="/website\admin\exams._include_.html" name="%%Admin »%% Exams :star::star::star:" header="%%Admin »%% Exams :star::star::star:" isOpen="false" no-close="true" no-switch="true"></panel>
@@ -248,8 +248,7 @@
             <div>
               <panel header=":lock: Explain Class Diagram">
                 <question>
-                  <p>Explain the associations, navigabilities, and multiplicities in the class diagram below:</p>
-                  <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
+                  <p>Explain the associations, navigabilities, and multiplicities in the class diagram below:</p><img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
                   <p></p>
                 </question>
               </panel>
@@ -257,8 +256,7 @@
             <div>
               <panel header=":lock: Object Diagrams for Class Diagram">
                 <question>
-                  <p>Suppose we wrote a program to follow the class structure given in this class diagram:</p>
-                  <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
+                  <p>Suppose we wrote a program to follow the class structure given in this class diagram:</p><img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
                   <p></p>
                   <p>Draw object diagrams to represent the object structures after each of these steps below. Assume that we are trying to minimize the number of total objects.</p>
                   <p>i.e. apply step 1 → [diagram 1] → apply step 2 on diagarm 1 → [diagarm 2] and so on.</p>
@@ -280,8 +278,7 @@
                     </li>
                   </ol>
                   <div slot="hint">
-                    <p>After step 2, the diagram should be like this:</p>
-                    <img src="/website/book/oopImplementation/associations/images/objectDiagramsForClassDiagramHint.png" width="600"></div>
+                    <p>After step 2, the diagram should be like this:</p><img src="/website/book/oopImplementation/associations/images/objectDiagramsForClassDiagramHint.png" width="600"></div>
                 </question>
               </panel>
             </div>
@@ -289,6 +286,7 @@
         </panel>
         <panel header=":loudspeaker: Lecture 4" ctrl-lvl="1" no-close="">
           <div>
+            <p><strong>E-learning</strong>: [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E4P1.%20OOP%20-%20More%20UML.mp4">OOP - More UML</a>] [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E4P2.%20OOP%20-%20Inheritance.mp4">OOP - Inheritance</a>]</p>
             <p>[<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L4.pptx">slides</a>]</p>
           </div>
         </panel>

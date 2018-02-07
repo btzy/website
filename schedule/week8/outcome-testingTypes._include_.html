@@ -125,7 +125,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: John"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-          <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code>            <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
+          <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code><em>in isolation from its dependencies</em>            and hence it is not a pure unit test.</p>
           <p>Here is a stub class you can use in place of <code>DatabaseStorage</code>:</p>
           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StorageStub</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Storage</span> </span>{
 
@@ -165,9 +165,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <panel header=":lock::key: Purpose of stubs">
                 <question>
                   <p>Stubs help us to test a component in isolation from its dependencies.</p>
-                  <ul radio-group="a0303" class="radio-list">
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> True</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> False</label></li>
+                  <ul radio-group="co83c" class="radio-list">
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="co83c" type="radio"> True</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="co83c" type="radio"> False</label></li>
                   </ul>
                   <div slot="answer">
                     <p>True</p>
@@ -207,7 +207,6 @@ String name = logic.getName(<span class="hljs-number">23</span>);
           <tooltip content="Software Under Test">SUT</tooltip> from its
           <tooltip content="objects it depends on">dependencies</tooltip> so that it can be tested in isolation.</p>
         <modal large="" title="" id="modal:explainDi-stub">
-        
           <div>
             <div>
               <p>
@@ -277,7 +276,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: John"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                  <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code>                    <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
+                  <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code><em>in isolation from its dependencies</em>                    and hence it is not a pure unit test.</p>
                   <p>Here is a stub class you can use in place of <code>DatabaseStorage</code>:</p>
                   <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StorageStub</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Storage</span> </span>{
 
@@ -316,9 +315,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                       <panel header=":lock::key: Purpose of stubs">
                         <question>
                           <p>Stubs help us to test a component in isolation from its dependencies.</p>
-                          <ul radio-group="a0303" class="radio-list">
-                            <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> True</label></li>
-                            <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> False</label></li>
+                          <ul radio-group="8zvnd" class="radio-list">
+                            <li class="radio-list-item"><label><input class="radio-list-input" name="8zvnd" type="radio"> True</label></li>
+                            <li class="radio-list-item"><label><input class="radio-list-input" name="8zvnd" type="radio"> False</label></li>
                           </ul>
                           <div slot="answer">
                             <p>True</p>
@@ -333,8 +332,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
           </div>
         </modal>
         <tip-box>
-          <p>📦 A <code>Foo</code> object normally depends on a <code>Bar</code> object, but we can inject a <code>BarStub</code> object so that the <code>Foo</code> object no longer depends on a <code>Bar</code> object. Now we can test the <code>Foo</code>            object in isolation from the <code>Bar</code> object.</p>
-          <img src="/website/book/testing/dependencyInjection/what/images/diagram.png" height="150"></tip-box>
+          <p>📦 A <code>Foo</code> object normally depends on a <code>Bar</code> object, but we can inject a <code>BarStub</code> object so that the <code>Foo</code> object no longer depends on a <code>Bar</code> object. Now we can test the <code>Foo</code>            object in isolation from the <code>Bar</code> object.</p><img src="/website/book/testing/dependencyInjection/what/images/diagram.png" height="150"></tip-box>
       </div>
       <div></div>
     </div>
@@ -361,7 +359,6 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         <p><strong>Polymorphism can be used to implement dependency injection</strong>, as can be seen in the example given in
           <trigger trigger="click" for="modal:useDi-stub">[Quality Assurance → Testing → Unit Testing → Stubs]</trigger> where a stub is injected to replace a dependency.</p>
         <modal large="" title="" id="modal:useDi-stub">
-        
           <div>
             <div>
               <p>
@@ -431,7 +428,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
     assertEquals(<span class="hljs-string">"Name: John"</span>, logic.getName(<span class="hljs-number">5</span>));
 }
 </code></pre>
-                  <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code>                    <em>in isolation from its dependencies</em> and hence it is not a pure unit test.</p>
+                  <p>However, this <code>logic</code> object being tested is making use of a <code>DataBaseStorage</code> object which means a bug in the <code>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code>Logic</code><em>in isolation from its dependencies</em>                    and hence it is not a pure unit test.</p>
                   <p>Here is a stub class you can use in place of <code>DatabaseStorage</code>:</p>
                   <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">StorageStub</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Storage</span> </span>{
 
@@ -470,9 +467,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
                       <panel header=":lock::key: Purpose of stubs">
                         <question>
                           <p>Stubs help us to test a component in isolation from its dependencies.</p>
-                          <ul radio-group="a0303" class="radio-list">
-                            <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> True</label></li>
-                            <li class="radio-list-item"><label><input class="radio-list-input" name="a0303" type="radio"> False</label></li>
+                          <ul radio-group="4wnl2" class="radio-list">
+                            <li class="radio-list-item"><label><input class="radio-list-input" name="4wnl2" type="radio"> True</label></li>
+                            <li class="radio-list-item"><label><input class="radio-list-input" name="4wnl2" type="radio"> False</label></li>
                           </ul>
                           <div slot="answer">
                             <p>True</p>
@@ -638,9 +635,8 @@ String name = logic.getName(<span class="hljs-number">23</span>);
         <p><strong>In practice, developers often use a hybrid of unit+integration tests to minimize the need for stubs.</strong></p>
         <tip-box>
           <p>📦 Here's how a hybrid unit+integration approach could be applied to the same example used above:</p>
-          <p>(a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br>
-            <s>(b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, using stubs for <code>Engine</code> and <code>Wheel</code>.</s><br> (c) After that, do an integration test for <code>Car</code> using it together
-            with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>. <mark>This step should include test cases that are meant to test the unit <code>Car</code></mark>            (i.e. test cases used in the step (b) of the example above) as well as test cases that are meant to test the integration of <code>Car</code> with <code>Wheel</code> and <code>Engine</code> (i.e. pure integration test cases used of the step
+          <p>(a) First, unit test <code>Engine</code> and <code>Wheel</code>.<br><s>(b) Next, unit test <code>Car</code> in isolation of <code>Engine</code> and <code>Wheel</code>, using stubs for <code>Engine</code> and <code>Wheel</code>.</s><br> (c) After
+            that, do an integration test for <code>Car</code> using it together with the <code>Engine</code> and <code>Wheel</code> classes to ensure the <code>Car</code> integrates properly with the <code>Engine</code> and the <code>Wheel</code>. <mark>This step should include test cases that are meant to test the unit <code>Car</code></mark>            (i.e. test cases used in the step (b) of the example above) as well as test cases that are meant to test the integration of <code>Car</code> with <code>Wheel</code> and <code>Engine</code> (i.e. pure integration test cases used of the step
             (c) in the example above).</p>
           <p>💡 Note that you no longer need stubs for <code>Engine</code> and <code>Wheel</code>. The downside is that <code>Car</code> is never tested in isolation of its dependencies. Given that its dependencies are already unit tested, the risk of bugs
             in <code>Engine</code> and <code>Wheel</code> affecting the testing of <code>Car</code> can be considered minimal.</p>
@@ -721,8 +717,7 @@ String name = logic.getName(<span class="hljs-number">23</span>);
             value. Therefore, automated regression testing of GUIs is rather difficult.</li>
           <li>The appearance of a GUI (and sometimes even behavior) can be different across platforms and even environments. For example, a GUI can behave differently based on whether it is minimized or maximized, in focus or out of focus, and in a high resolution
             display or a low resolution display.</li>
-        </ul>
-        <img src="/website/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
+        </ul><img src="/website/book/testing/testAutomation/testingGuis/images/diagram.png" height="120">
         <p></p>
         <p><strong>One approach to overcome the challenges of testing GUIs is to minimize logic aspects in the GUI.</strong> Then, bypass the GUI to test the rest of the system using automated API testing. While this still requires the GUI to be tested manually,
           the number of such manual test cases can be reduced as most of the system has been tested using automated API testing.</p>
@@ -753,9 +748,9 @@ String name = logic.getName(<span class="hljs-number">23</span>);
               <panel header=":lock::key: API testing vs GUI testing">
                 <question>
                   <p>GUI testing is usually easier than API testing because it doesn’t require any extra coding.</p>
-                  <ul radio-group="dc574" class="radio-list">
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="dc574" type="radio"> True</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="dc574" type="radio"> False</label></li>
+                  <ul radio-group="24upv" class="radio-list">
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="24upv" type="radio"> True</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="24upv" type="radio"> False</label></li>
                   </ul>
                   <div slot="answer">
                     <p>False</p>

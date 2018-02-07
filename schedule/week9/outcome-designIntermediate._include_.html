@@ -17,8 +17,7 @@
     <div id="main">
       <div>
         <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object is expected.</p>
-        <tip-box>
-          <img src="/website/book/oopDesign/inheritance/substitutability/images/staff.png" height="80">
+        <tip-box><img src="/website/book/oopDesign/inheritance/substitutability/images/staff.png" height="80">
           <p></p>
           <p>📦 an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by an object
             of any of its subclasses.</p>
@@ -26,7 +25,8 @@
           <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
 </code></pre>
           <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of  type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
-          <pre class="hljs"><code>Staff staff;
+          <pre
+            class="hljs"><code>Staff staff;
 ...
 AcademicStaff academicStaff = staff; // Not OK
 </code></pre>
@@ -48,7 +48,6 @@ AcademicStaff academicStaff = staff; // Not OK
     <div id="main">
       <div>
         <tip-box type="definition">
-        
           <div>
             <p><strong>Dynamic Binding</strong> (
               <tooltip content="There are subtle differences between late binding and dynamic binding, but they are beyond the scope of this document">aka late binding</tooltip>) : a mechanism where method calls in code are
@@ -57,8 +56,8 @@ AcademicStaff academicStaff = staff; // Not OK
           </div>
         </tip-box>
         <p><strong><trigger trigger="click" for="modal:dynamicAndStatic-overriding">Overridden methods</trigger> are resolved using dynamic binding, and therefore resolves to the implementation in the actual type of the object.</strong></p>
-        <modal large="" title="Textbook »" id="modal:dynamicAndStatic-overriding">
-        
+        <modal large=""
+          title="Textbook »" id="modal:dynamicAndStatic-overriding">
           <div>
             <div>
               <p>
@@ -123,8 +122,7 @@ AcademicStaff academicStaff = staff; // Not OK
                     <div>
                       <panel header=":lock::key: Which methods override?">
                         <question>
-                          <p>Which of these methods override another method?</p>
-                          <img src="/website/book/oopImplementation/overriding/images/overriding.png" height="220">
+                          <p>Which of these methods override another method?</p><img src="/website/book/oopImplementation/overriding/images/overriding.png" height="220">
                           <p></p>
                           <ul class="task-list">
                             <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a</li>
@@ -147,8 +145,8 @@ AcademicStaff academicStaff = staff; // Not OK
           </div>
         </modal>
         <tip-box>
-          <p>📦 Consider the code below. The declared type of <code>s</code> is <code>Staff</code> and it appears as if the <code>adjustSalary(int)</code> operation of the <code>Staff</code> class is invoked.</p>
-          <img src="/website/book/oopDesign/inheritance/dynamicAndStaticBinding/images/staff.png" height="150">
+          <p>📦 Consider the code below. The declared type of <code>s</code> is <code>Staff</code> and it appears as if the <code>adjustSalary(int)</code> operation of the <code>Staff</code> class is invoked.</p><img src="/website/book/oopDesign/inheritance/dynamicAndStaticBinding/images/staff.png"
+            height="150">
           <p></p>
           <pre><code class="hljs java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">adjustSalary</span><span class="hljs-params">(<span class="hljs-keyword">int</span> byPercent)</span> </span>{
     <span class="hljs-keyword">for</span> (Staff s: staff) {
@@ -160,14 +158,12 @@ AcademicStaff academicStaff = staff; // Not OK
             operation, the operation defined in the immediate superclass (in this case, <code>Staff</code> class) will be called.</p>
         </tip-box>
         <tip-box type="definition">
-        
           <div>
             <p><strong>Static binding</strong> (aka early binding): When a method call is resolved at compile time.</p>
           </div>
         </tip-box>
         <p><strong>In contrast, <trigger trigger="click" for="modal:dynamicAndStatic-overloading">overloaded</trigger> methods are resolved using static binding.</strong></p>
         <modal large="" title="Textbook »" id="modal:dynamicAndStatic-overloading">
-        
           <div>
             <div>
               <p>
@@ -280,12 +276,12 @@ void calculateGrade (String matric) { ... }
               <panel header=":lock::key: Concepts related to polymorphism">
                 <question>
                   <p>Which one of these is least related to how OO programs achieve polymorphism?</p>
-                  <ul radio-group="8bdf8" class="radio-list">
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> a. substitutability</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> b. dynamic binding</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> c. operation overloading</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> d. interfaces</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> e. abstract classes</label></li>
+                  <ul radio-group="6j6m2" class="radio-list">
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="6j6m2" type="radio"> a. substitutability</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="6j6m2" type="radio"> b. dynamic binding</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="6j6m2" type="radio"> c. operation overloading</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="6j6m2" type="radio"> d. interfaces</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="6j6m2" type="radio"> e. abstract classes</label></li>
                   </ul>
                   <div slot="answer">
                     <p>(c)</p>
@@ -333,9 +329,9 @@ void calculateGrade (String matric) { ... }
               <panel header=":lock::key: Which is better?">
                 <question>
                   <p>Top-down design is better than bottom-up design.</p>
-                  <ul radio-group="81698" class="radio-list">
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="81698" type="radio"> True</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="81698" type="radio"> False</label></li>
+                  <ul radio-group="u79hm" class="radio-list">
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="u79hm" type="radio"> True</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="u79hm" type="radio"> False</label></li>
                   </ul>
                   <div slot="answer">
                     <p>False</p>
@@ -377,9 +373,9 @@ void calculateGrade (String matric) { ... }
               <panel header=":lock::key: Statement about agile design">
                 <question>
                   <p>Agile design camp expects the design to change over the product’s lifetime.</p>
-                  <ul radio-group="07214" class="radio-list">
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="07214" type="radio"> True</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="07214" type="radio"> False</label></li>
+                  <ul radio-group="qb46e" class="radio-list">
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="qb46e" type="radio"> True</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="qb46e" type="radio"> False</label></li>
                   </ul>
                   <div slot="answer">
                     <p>True</p>
@@ -393,8 +389,7 @@ void calculateGrade (String matric) { ... }
       </div>
     </div>
   </div>
-</panel>
-<br>
+</panel><br>
 <p><span class="dimmed"><strong>More Design Principles:</strong></span></p>
 <panel type="info" header="`W9.2f` Can explain Liskov Substitution Principle :star::star::star:" expanded="" no-close="">
   <div>
@@ -418,7 +413,6 @@ void calculateGrade (String matric) { ... }
           <trigger large="" trigger="click" for="modal:lsp-substitutability">substitutability</trigger> but it goes beyond substitutability; <strong>LSP implies that a subclass should not be more restrictive than the behavior specified by the superclass.</strong> As we know, Java has language support for substitutability.
           However, if LSP is not followed, substituting a subclass object for a superclass object can break the functionality of the code.</p>
         <modal large="" title="Textbook »" id="modal:lsp-substitutability">
-        
           <div>
             <div>
               <p>
@@ -437,8 +431,7 @@ void calculateGrade (String matric) { ... }
               <div>
                 <p><strong>Every instance of a subclass is an instance of the superclass, but not vice-versa.</strong> As a result, inheritance allows <em>substitutability</em> : the ability to substitute a child class object where a parent class object
                   is expected.</p>
-                <tip-box>
-                  <img src="/website/book/oopDesign/inheritance/substitutability/images/staff.png" height="80">
+                <tip-box><img src="/website/book/oopDesign/inheritance/substitutability/images/staff.png" height="80">
                   <p></p>
                   <p>📦 an <code>Academic</code> is an instance of a <code>Staff</code>, but a <code>Staff</code> is not necessarily an instance of an <code>Academic</code>. i.e. wherever an object of the superclass is expected, it can be substituted by
                     an object of any of its subclasses.</p>
@@ -446,7 +439,8 @@ void calculateGrade (String matric) { ... }
                   <pre><code class="hljs java">Staff staff = <span class="hljs-keyword">new</span> AcademicStaff (); <span class="hljs-comment">// OK</span>
 </code></pre>
                   <p>But the following code is not valid <span class="dimmed"> because <code>staff</code> is declared as a <code>Staff</code> type and therefore its value may or may not be of  type <code>AcademicStaff</code>, which is the type expected by variable <code>academicStaff</code>.</span></p>
-                  <pre class="hljs"><code>Staff staff;
+                  <pre
+                    class="hljs"><code>Staff staff;
 ...
 AcademicStaff academicStaff = staff; // Not OK
 </code></pre>
@@ -458,8 +452,7 @@ AcademicStaff academicStaff = staff; // Not OK
         </modal>
         <tip-box>
           <p>📦 Suppose the <code>Payroll</code> class depends on the <code>adjustMySalary(int percent)</code> method of the <code>Staff</code> class. Furthermore, the <code>Staff</code> class states that the <code>adjustMySalary</code> method will work
-            for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p>
-          <img src="/website/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
+            for all positive percent values. Both <code>Admin</code> and <code>Academic</code> classes override the <code>adjustMySalary</code> method.</p><img src="/website/book/principles/liskovSubstitutionPrinciple/images/payroll.png" height="200">
           <p></p>
           <p>Now consider the following:</p>
           <ul>
@@ -475,8 +468,7 @@ AcademicStaff academicStaff = staff; // Not OK
           </ul>
           <panel type="seamless" header="%%Another example%%">
             <p>📦 The <code>Rectangle#resize()</code> can take any integers for <code>height</code> and <code>width</code>. This contract is violated by the subclass <code>Square#resize()</code> because it does not accept a <code>height</code> that is different
-              from the <code>width</code>.</p>
-            <img src="/website/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
+              from the <code>width</code>.</p><img src="/website/book/principles/liskovSubstitutionPrinciple/images/rectangleSquare.png" height="120">
             <p></p>
             <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Rectangle</span> </span>{
     ...
@@ -513,9 +505,9 @@ AcademicStaff academicStaff = staff; // Not OK
               <panel header=":lock::key: Is this LSP?">
                 <question>
                   <p>If a subclass imposes more restrictive conditions than its parent class, it violates Liskov Substitution Principle.</p>
-                  <ul radio-group="55ada" class="radio-list">
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="55ada" type="radio"> True</label></li>
-                    <li class="radio-list-item"><label><input class="radio-list-input" name="55ada" type="radio"> False</label></li>
+                  <ul radio-group="eyj9h" class="radio-list">
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="eyj9h" type="radio"> True</label></li>
+                    <li class="radio-list-item"><label><input class="radio-list-input" name="eyj9h" type="radio"> False</label></li>
                   </ul>
                   <div slot="answer">
                     <p>True.</p>
@@ -567,8 +559,7 @@ AcademicStaff academicStaff = staff; // Not OK
         <span class="hljs-comment">//...</span>
     }
 }
-</code></pre>
-          <img src="/website/book/principles/interfaceSegregationPrinciple/images/payroll.png" height="200">
+</code></pre><img src="/website/book/principles/interfaceSegregationPrinciple/images/payroll.png" height="200">
           <p></p>
         </tip-box>
       </div>
@@ -593,8 +584,7 @@ AcademicStaff academicStaff = staff; // Not OK
           <li>Abstractions should not depend on details. Details should depend on abstractions.</li>
         </ol>
         <tip-box>
-          <p>Example:</p>
-          <img src="/website/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
+          <p>Example:</p><img src="/website/book/principles/dependencyInversionPrinciple/images/payrollEmployee.png" height="130">
           <p></p>
           <p>In design (a), the higher level class <code>Payroll</code> depends on the lower level class <code>Employee</code>, a violation of DIP. In design (b), both <code>Payroll</code> and <code>Employee</code> depends on the Payee interface (note that
             inheritance is a dependency).</p>
