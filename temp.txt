@@ -1,0 +1,25 @@
+
+- [ ] **`W2.1` Can use Git to save history** ⭐️
+- [ ] `W2.1f` Can set Git to ignore files ⭐️⭐️
+
+
+------
+
+
+
+
+
+------
+
+
+
+
+
+------
+
+
+
+
+------
+
+
