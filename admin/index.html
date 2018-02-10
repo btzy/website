@@ -934,7 +934,7 @@
                   </div>
                 </tip-box>
                 <tip-box>
-                  <p>📦 Examples (from a Learning Management System):</p>
+                  <p>📦 Examples (from a <em>Learning Management System</em>):</p>
                   <ol>
                     <li>As a student, I can download files uploaded by lecturers, so that I can get my own copy of the files</li>
                     <li>As a lecturer, I can create discussion forums, so that students can discuss things online</li>
@@ -942,7 +942,8 @@
                   </ol>
                 </tip-box>
                 <p></p>
-                <p><strong>We can write user stories on</strong> index cards or sticky notes, and arrange on walls or tables, to facilitate planning and discussion. Alternatively, we can use a software such as <a href="https://help.github.com/articles/about-project-boards/">GitHub Project Boards</a>                  to manage user stories digitally.</p>
+                <p><strong>We can write user stories on</strong> index cards or sticky notes, and arrange on walls or tables, to facilitate planning and discussion. Alternatively, we can use a software (e.g., <a href="https://help.github.com/articles/about-project-boards/">GitHub Project Boards</a>,
+                  Trello, Google Docs, ...) to manage user stories digitally.</p>
                 <panel header="%%User stories in use%%" expanded="">
                   <panel header="With sticky notes" type="seamless" expanded=""><img src="/website/book/specifyingRequirements/userStories/introduction/images/workingWithStories.jpg" height="400">
                     <p><span class="dimmed"><sup>[credit: <a href="https://www.flickr.com/photos/jakuza/2682466984/">https://www.flickr.com/photos/jakuza/2682466984/</a>]</sup></span></p>
@@ -1145,7 +1146,8 @@
                         <li>System:
                           <popover effect="fade" placement="right" content="Automated Teller Machine">
                             ATM </popover>
-                          Actor: Customer</li>
+                        </li>
+                        <li>Actor: Customer</li>
                         <li>Use Case: Check account balance
                           <ol>
                             <li>User inserts an ATM card</li>
@@ -1827,14 +1829,12 @@
                   <tip-box>
                     <p>📦 In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p><img src="/website/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png"
                       height="250"></tip-box>
-                  <tip-box type="tip">
-                    Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.
-                  </tip-box>
+                  <p>💡 Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
                   <p><strong>Some include ‘System’ as an actor to indicate that something is done by the system itself without being initiated by a user or an external system.</strong></p>
                   <tip-box>
                     <p>📦 The diagram below can be used to indicate that the system generates daily reports at midnight.</p><img src="/website/book/specifyingRequirements/useCases/usage/images/systemAsActor.jpg" height="200"></tip-box>
                   <p>However, others argue that only use cases providing value to an external user/system should be shown in the use case diagram. For example, they argue that ‘view daily report’ should be the use case and <code>generate daily report</code>                    is not to be shown in the use case diagram because it is simply something the system has to do to support the <code>view daily report</code> use case.</p>
-                  <p>We recommend that you follow the latter view (i.e. not to use System as a user). Limit use cases for Modeling Behaviors that involve an external actor.</p>
+                  <p>We recommend that you follow the latter view (i.e. not to use System as a user). Limit use cases for modeling behaviors that involve an external actor.</p>
                   <p><strong>UML is not very specific about the text contents of a use case.</strong> Hence, there are many styles for writing use cases. For example, the steps can be written as a continuous paragraph. Use cases should be easy to read. Note
                     that there is no strict rule about writing all details of all steps or a need to use all the elements of a use case.</p>
                   <p><strong>There are some advantages of documenting system requirements as use cases:</strong></p>
@@ -1911,12 +1911,14 @@
               <tip-box>
                 <p>📦 Some examples of non-functional requirement categories:</p>
                 <ul>
-                  <li>Data requirements e.g. size, volatility, persistency etc.,</li>
+                  <li>Data requirements e.g. size,
+                    <tooltip content="how often do data change">volatility</tooltip>,
+                    <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
                   <li>Environment requirements e.g. technical environment in which system would operate or need to be compatible with.</li>
                   <li>Accessibility, Capacity, Compliance with regulations, Documentation, Disaster recovery, Efficiency, Extensibility, Fault tolerance, Interoperability, Maintainability, Privacy, Portability, Quality, Reliability, Response time, Robustness,
                     Scalability, Security, Stability, Testability, and more ...</li>
                 </ul>
-                <panel type="seamless" header=":package: Some concrete examples of NFRs">
+                <panel type="seamless" header=":package: Some concrete examples of NFRs" expanded="">
                   <ul>
                     <li>Business/domain rules: e.g. the size of the minefield cannot be smaller than five.</li>
                     <li>Constraints: e.g. the system should be backward compatible with data produced by earlier versions of the system; system testers are available only during the last month of the project; the total project cost should not exceed $1.5
@@ -1931,7 +1933,10 @@
                   </ul>
                 </panel>
               </tip-box>
-              <p><strong>Non-functional requirements are easier to miss.</strong> We should spend extra effort in digging them out as early as possible because sometimes they are critical to the success of the software. <span class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span></p>
+              <p>We should spend extra effort in digging NFRs out as early as possible because <strong>NFRs are easier to miss</strong><span class="dimmed"> e.g., stakeholders tend to think of functional requirements first</span> and sometimes <strong>they are critical to the success of the software.</strong>
+                <span
+                  class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span>
+              </p>
             </div>
             <div>
               <div>
@@ -1982,7 +1987,7 @@
                 </div>
               </tip-box>
               <tip-box>
-                <p>📦 Here is a partial glossary from a variant of the Snakes and Ladders game:</p>
+                <p>📦 Here is a partial glossary from a variant of the <em>Snakes and Ladders</em> game:</p>
                 <ul>
                   <li>Conditional square: A square that specifies a specific face value which a player has to throw before his/her piece can leave the square.</li>
                   <li>Normal square: a normal square does not have any conditions, snakes, or ladders in it.</li>
@@ -4347,7 +4352,7 @@ return isProper;
                 <panel type="seamless" header=" %%- - - - - - - - - -%%">
                   <div>
                     <div>
-                      <panel header="**Minimise Scope of Variables**" type="seamless">
+                      <panel header="**Minimise Scope of Variables**" type="seamless" expanded="">
                         <div>
                           <div>
                             <p><strong>Minimize global variables</strong>. Global variables may be the most convenient way to pass information around, but they do create implicit links between code segments that use the global variable. Avoid them as much
@@ -4363,7 +4368,7 @@ return isProper;
                           </div>
                         </div>
                       </panel>
-                      <panel header="**Minimise Code Duplication**" type="seamless">
+                      <panel header="**Minimise Code Duplication**" type="seamless" expanded="">
                         <div>
                           <div>
                             <p><strong>Code duplication, especially when you copy-paste-modify code, often indicates a poor quality implementation.</strong> While it may not be possible to have zero duplication, always think twice before duplicating code;

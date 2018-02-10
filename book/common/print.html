@@ -240,54 +240,63 @@
             </ul>
           </tip-box>
           <p><strong>Every object has both state (data) and behavior (operations on data).</strong></p>
-          <table class="markbind-table table">
-            <thead>
-              <tr>
-                <th style="text-align:center">Object</th>
-                <th style="text-align:center">Real World?</th>
-                <th style="text-align:center">Virtual World?</th>
-                <th style="text-align:center">Example of State (i.e. Data)</th>
-                <th style="text-align:center">Examples of Behavior (i.e. Operations)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td style="text-align:center">Adam</td>
-                <td style="text-align:center">x</td>
-                <td style="text-align:center">x</td>
-                <td style="text-align:center">Name, Date of Birth</td>
-                <td style="text-align:center">Calculate age based on birthday</td>
-              </tr>
-              <tr>
-                <td style="text-align:center">Pen</td>
-                <td style="text-align:center">x</td>
-                <td style="text-align:center"></td>
-                <td style="text-align:center">Ink color, Amount of ink remaining</td>
-                <td style="text-align:center">Write</td>
-              </tr>
-              <tr>
-                <td style="text-align:center">AgeList</td>
-                <td style="text-align:center"></td>
-                <td style="text-align:center">x</td>
-                <td style="text-align:center">Recorded ages</td>
-                <td style="text-align:center">Give the number of entries, Accept an entry to record</td>
-              </tr>
-              <tr>
-                <td style="text-align:center">Calculator</td>
-                <td style="text-align:center">x</td>
-                <td style="text-align:center">x</td>
-                <td style="text-align:center">Numbers already entered</td>
-                <td style="text-align:center">Calculate the sum, divide</td>
-              </tr>
-              <tr>
-                <td style="text-align:center">You/Main</td>
-                <td style="text-align:center">x</td>
-                <td style="text-align:center">x</td>
-                <td style="text-align:center">Average age, Sum of ages</td>
-                <td style="text-align:center">Use other objects to calculate</td>
-              </tr>
-            </tbody>
-          </table>
+          <tip-box>
+            <table class="markbind-table table">
+              <thead>
+                <tr>
+                  <th style="text-align:center">Object</th>
+                  <th style="text-align:center">Real World?</th>
+                  <th style="text-align:center">Virtual World?</th>
+                  <th style="text-align:center">Example of State (i.e. Data)</th>
+                  <th style="text-align:center">Examples of Behavior (i.e. Operations)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align:center">Adam</td>
+                  <td style="text-align:center"><strong>🗸</strong></td>
+                  <td style="text-align:center"><strong>🗸</strong></td>
+                  <td style="text-align:center">Name, Date of Birth</td>
+                  <td style="text-align:center">Calculate age based on birthday</td>
+                </tr>
+                <tr>
+                  <td style="text-align:center">Pen</td>
+                  <td style="text-align:center"><strong>🗸</strong></td>
+                  <td style="text-align:center"><span class="dimmed">-</span></td>
+                  <td style="text-align:center">Ink color, Amount of ink remaining</td>
+                  <td style="text-align:center">Write</td>
+                </tr>
+                <tr>
+                  <td style="text-align:center">AgeList</td>
+                  <td style="text-align:center"><span class="dimmed">-</span></td>
+                  <td style="text-align:center"><strong>🗸</strong></td>
+                  <td style="text-align:center">Recorded ages</td>
+                  <td style="text-align:center">Give the number of entries, Accept an entry to record</td>
+                </tr>
+                <tr>
+                  <td style="text-align:center">Calculator</td>
+                  <td style="text-align:center"><strong>🗸</strong></td>
+                  <td style="text-align:center"><strong>🗸</strong></td>
+                  <td style="text-align:center">Numbers already entered</td>
+                  <td style="text-align:center">Calculate the sum, divide</td>
+                </tr>
+                <tr>
+                  <td style="text-align:center">You/Main</td>
+                  <td style="text-align:center"><strong>🗸</strong></td>
+                  <td style="text-align:center"><strong>🗸</strong></td>
+                  <td style="text-align:center">Average age, Sum of ages</td>
+                  <td style="text-align:center">Use other objects to calculate</td>
+                </tr>
+                <tr>
+                  <td style="text-align:center"></td>
+                </tr>
+              </tbody>
+            </table>
+          </tip-box>
+          <td style="text-align:center"></td>
+          <td style="text-align:center"></td>
+          <td style="text-align:center"></td>
+          <td style="text-align:center"></td>
           <p><strong>Every object has an interface and an implementation.</strong></p>
           <p>Every real world object has an interface that other objects can interact with and an implementation that supports the interface but may not be accessible to the other object.</p>
           <tip-box>
@@ -407,8 +416,8 @@
           </tip-box>
           <p>Let us use the UML notation to illustrate classes and objects under discussion.</p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\classes\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Classes" isOpen="false" no-close="true" no-switch="true"></panel>
-            <panel src="/website\book\uml\objectDiagrams\objects\full._include_.html" header=":mortar_board: UML → Object Diagrams → Objects" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\classes\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Classes" expanded=""></panel>
+            <panel src="/website\book\uml\objectDiagrams\objects\full._include_.html" header=":mortar_board: UML → Object Diagrams → Objects" expanded=""></panel>
           </p>
           <p></p>
           <tip-box><img src="/website/book/oopDesign/classes/basic/images/person.png" height="100">
@@ -445,7 +454,7 @@
           <p><strong>Class-level attributes and methods are collectively called <mark><em>class-level members</em></mark></strong> (also called <em>static members</em> sometimes because some programming languages use the keyword <code>static</code> to identify
             class-level members). <strong>They are to be accessed using the class name rather than an instance of the class</strong>.</p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\classLevelMembers\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Class Level Members" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\classLevelMembers\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Class Level Members" expanded=""></panel>
           </p>
           <p></p>
           <p>📦 A <code>Student</code> class with a class-level attribute and a method:</p><img src="/website/book/oopDesign/classes/classLevelMembers/images/person.png" height="100">
@@ -460,7 +469,7 @@
           <p><strong>An <em>Enumeration</em> is a fixed set of values that can be considered as a data type.</strong></p>
           <p>An enumeration is often useful when using a regular data type such as <code>int</code> or <code>String</code> would allow invalid values to be assigned to a variable. <span class="dimmed">e.g. if a variable can only take values <code>0</code> and <code>1</code>, declaring it as an <code>int</code> would allow invalid values such as <code>2</code> to be assigned to it. But if you define an enumeration called <code>Binary</code> that has values <code>0</code> and <code>1</code> only, a variable of type <code>Binary</code> will never be assigned an invalid value such as <code>2</code> because the compiler is able to catch the error.</span></p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\enumerations\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Enumerations" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\enumerations\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Enumerations" expanded=""></panel>
           </p>
           <p></p>
           <tip-box>
@@ -478,7 +487,7 @@
         <div>
           <p>Objects in an OO solution need to be connected to each other to form a network so that they can interact with each other. Such <strong>connections between objects are called <em>associations</em>.</strong></p>
           <p>
-            <panel src="/website\book\uml\objectDiagrams\associations\what\full._include_.html" header=":mortar_board: UML → Object Diagrams → Associations → What" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\objectDiagrams\associations\what\full._include_.html" header=":mortar_board: UML → Object Diagrams → Associations → What" expanded=""></panel>
           </p>
           <p></p>
           <tip-box>
@@ -492,7 +501,7 @@
           </tip-box>
           <p><strong>Associations among objects are reflected correspondingly in the class diagram too</strong>, as it is the class diagram that dictates the nature of the associations allowed in the object structures.</p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\associations\basic\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Basic" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\associations\basic\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Basic" expanded=""></panel>
           </p>
           <tip-box>
             <p>📦 An example class diagram showing associations between classes.</p><img src="/website/book/oopDesign/associations/basic/images/ageListCalculatorPerson.png" height="100">
@@ -507,7 +516,7 @@
         <div>
           <p>When two classes are linked by an association, it does not necessarily mean both classes know about each other. <strong>The concept of which class in the association knows about the other class is called <em>navigability</em>.</strong></p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\associations\navigability\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Navigability" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\associations\navigability\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Navigability" expanded=""></panel>
           </p>
           <p></p>
         </div>
@@ -521,7 +530,7 @@
           <tip-box>
             <p>📦 This class diagram does not tell us multiplicities. For exaple, how many <code>Calculator</code> objects can be associated with one <code>Main</code> object? How many <code>Main</code> objects can be associated with one <code>Calculator</code>              object? and so on.</p><img src="/website/book/oopDesign/associations/basic/images/ageListCalculatorPerson.png" height="100"></tip-box>
           <p>
-            <panel src="/website\book\uml\classDiagrams\associations\multiplicity\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Multiplicity" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\associations\multiplicity\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Multiplicity" expanded=""></panel>
           </p>
           <p></p>
         </div>
@@ -533,7 +542,7 @@
         <div>
           <p>Dependencies are objects that are not directly linked in the object network can still interact with each other. These are a weaker form of associations we call <em>dependencies</em>.</p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\dependencies\what\full._include_.html" header=":mortar_board: UML: Class Diagrams: Dependencies" is-open="" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\dependencies\what\full._include_.html" header=":mortar_board: UML: Class Diagrams: Dependencies" expanded=""></panel>
           </p>
           <p></p>
         </div>
@@ -545,7 +554,7 @@
         <div>
           <p><strong>A composition is an association that represents a strong <em>whole-part</em> relationship.</strong> When the <em>whole</em> is destroyed, <em>parts</em> are destroyed too.</p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\composition\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Composition" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\composition\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Composition" expanded=""></panel>
           </p>
           <p></p>
           <tip-box>
@@ -567,7 +576,7 @@
         <div>
           <p><strong><em>Aggregation</em> represents a <em>container-contained</em> relationship.</strong> It is a weaker relationship than composition.</p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\aggregation\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Aggregation" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\aggregation\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Aggregation" expanded=""></panel>
           </p>
           <p></p>
           <tip-box>
@@ -592,7 +601,7 @@
               the <code>Man</code> object or the <code>Woman</code> object. In such situations, an additional association class can be introduced, e.g. a <code>Marriage</code> class, to store such information.</p><img src="/website/book/oopDesign/associations/associationClasses/images/manWoman.png"
               height="120"></tip-box>
           <p>
-            <panel src="/website\book\uml\classDiagrams\associationClasses\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Association Classes" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\associationClasses\what\full._include_.html" header=":mortar_board: UML → Class Diagrams → Association Classes" expanded=""></panel>
             <p></p>
           </p>
         </div>
@@ -1646,17 +1655,17 @@ AcademicStaff academicStaff = staff; // Not OK
           <p><strong>A <em>software requirement</em> specifies a need to be fulfilled by the software product.</strong></p>
           <p>A software project may be,</p>
           <ul>
-            <li>a <em>brown-field</em> project: develop a product to replace/update an existing software product</li>
-            <li>a <em>green-field</em> project: develop a totally new system with no precedent</li>
+            <li>a <em>brown-field</em> project i.e., develop a product to replace/update an existing software product</li>
+            <li>a <em>green-field</em> project i.e., develop a totally new system with no precedent</li>
           </ul>
-          <p>In either case, requirements gathered, analyzed, specified, and managed.</p>
-          <p>Requirements come from <em>stakeholders</em>.</p>
+          <p>In either case, requirements need to be gathered, analyzed, specified, and managed.</p>
+          <p><strong>Requirements come from <em>stakeholders</em>.</strong></p>
           <tip-box type="info">
             <div>
               <p><strong>Stakeholder</strong>: A party that is potentially affected by the software project. e.g. users, sponsors, developers, interest groups, government agencies, etc.</p>
             </div>
           </tip-box>
-          <p>Identifying requirements is not as straightforward as it sounds. It is not as simple as writing a wish list.</p>
+          <p>Identifying requirements is often not easy. For example, stakeholders may not be aware of their precise needs, may not know how to communicate their requirements correctly, may not be willing to spend effort in identifying requirements, etc.</p>
         </div>
       </div>
       <div>
@@ -1672,12 +1681,14 @@ AcademicStaff academicStaff = staff; // Not OK
           <tip-box>
             <p>📦 Some examples of non-functional requirement categories:</p>
             <ul>
-              <li>Data requirements e.g. size, volatility, persistency etc.,</li>
+              <li>Data requirements e.g. size,
+                <tooltip content="how often do data change">volatility</tooltip>,
+                <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
               <li>Environment requirements e.g. technical environment in which system would operate or need to be compatible with.</li>
               <li>Accessibility, Capacity, Compliance with regulations, Documentation, Disaster recovery, Efficiency, Extensibility, Fault tolerance, Interoperability, Maintainability, Privacy, Portability, Quality, Reliability, Response time, Robustness,
                 Scalability, Security, Stability, Testability, and more ...</li>
             </ul>
-            <panel type="seamless" header=":package: Some concrete examples of NFRs">
+            <panel type="seamless" header=":package: Some concrete examples of NFRs" expanded="">
               <ul>
                 <li>Business/domain rules: e.g. the size of the minefield cannot be smaller than five.</li>
                 <li>Constraints: e.g. the system should be backward compatible with data produced by earlier versions of the system; system testers are available only during the last month of the project; the total project cost should not exceed $1.5 million.</li>
@@ -1691,7 +1702,10 @@ AcademicStaff academicStaff = staff; // Not OK
               </ul>
             </panel>
           </tip-box>
-          <p><strong>Non-functional requirements are easier to miss.</strong> We should spend extra effort in digging them out as early as possible because sometimes they are critical to the success of the software. <span class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span></p>
+          <p>We should spend extra effort in digging NFRs out as early as possible because <strong>NFRs are easier to miss</strong><span class="dimmed"> e.g., stakeholders tend to think of functional requirements first</span> and sometimes <strong>they are critical to the success of the software.</strong>
+            <span
+              class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span>
+          </p>
         </div>
       </div>
       <div>
@@ -1704,7 +1718,7 @@ AcademicStaff academicStaff = staff; // Not OK
           <tip-box>
             <p>📦 An example scheme for categorizing requirements:</p>
             <ul>
-              <li><code>Essential</code>: The product must have this requirement fulfilled else it does not get user acceptance</li>
+              <li><code>Essential</code>: The product must have this requirement fulfilled or else it does not get user acceptance</li>
               <li><code>Typical</code>: Most similar systems have this feature although the product can survive without it.</li>
               <li><code>Novel</code>: New features that could differentiate this product from the rest.</li>
             </ul>
@@ -1712,14 +1726,15 @@ AcademicStaff academicStaff = staff; // Not OK
             <ul>
               <li><code>High</code>, <code>Medium</code>, <code>Low</code></li>
               <li><code>Must-have</code>, <code>Nice-to-have</code>, <code>Unlikely-to-have</code></li>
+              <li><code>Level 0</code>, <code>Level 1</code>, <code>Level 2</code>, ...</li>
             </ul>
           </tip-box>
-          <p><strong>Some requirements can be discarded if they are considered ‘out of scope’.</strong></p>
+          <p><strong>Some requirements can be discarded if they are considered ‘out of <em><tooltip content="the extent to which the software features should go">scope</tooltip></em>’.</strong></p>
           <tip-box>
-            <p>📦 The requirement given below is for a Calendar application. Stakeholder of the software (e.g. product designers) might decide that keeping track of the time taken for tasks is not in the scope of the software.</p>
-            <ul>
-              <li>The software records the actual time taken by each task and show the difference between the <em>actual</em> and <em>scheduled</em> time for the task.</li>
-            </ul>
+            <p>📦 The requirement given below is for a Calendar application. Stakeholder of the software (e.g. product designers) might decide the following requirement is not in the scope of the software.</p>
+            <blockquote>
+              <p>The software records the actual time taken by each task and show the difference between the <em>actual</em> and <em>scheduled</em> time for the task.</p>
+            </blockquote>
           </tip-box>
         </div>
       </div>
@@ -1798,7 +1813,14 @@ AcademicStaff academicStaff = staff; // Not OK
           <h4 id="interviews-one">Interviews <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0031-20e3.png"></h4>
         </div>
         <div>
-          <p><strong>Interviewing stakeholders and domain experts can give us useful information that project requirements.</strong></p>
+          <p><strong>Interviewing stakeholders and <trigger for="pop:interviews-domainExpert">domain experts</trigger> can give us useful information that project requirements.</strong></p>
+          <popover id="pop:interviews-domainExpert" title="" placement="top">
+            <div slot="content">
+              <div>
+                <p><strong>Domain Expert</strong> : An expert of a discipline to which the product is connected <span class="dimmed"> e.g., for a software used for Accounting, a domain expert is someone who is an expert of Accounting</span>.</p>
+              </div>
+            </div>
+          </popover>
         </div>
       </div>
       <div>
@@ -1812,10 +1834,9 @@ AcademicStaff academicStaff = staff; // Not OK
           <p></p>
           <p><strong>Focus groups are a kind of informal interview within an interactive group setting.</strong> A group of people (e.g. potential users, beta testers) are asked about their understanding of a specific issue, process, product, advertisement,
             etc.</p>
-          <div v-closeable="" alt="video about focus groups">
-            <p>📺: How do focus groups work? - Hector Lanz <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0030-20e3.png"></p>
+          <panel type="seamless" header="%%:tv:: How do focus groups work? - Hector Lanz :zero:%%">
             <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/3TwgVQIZPsw" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
-          </div>
+          </panel>
         </div>
       </div>
       <div>
@@ -1838,23 +1859,21 @@ AcademicStaff academicStaff = staff; // Not OK
             them.</p>
           <tip-box>
             <panel header=":package: Simple text UI prototype for a primitive CLI (Command Line Interface) Minesweeper:" type="seamless" expanded="">
-              <p><img src="/website/book/gatheringRequirements/prototyping/images/textPrototypeCLI.png" height="350">
+              <p><img src="/website/book/gatheringRequirements/prototyping/images/textPrototypeCLI.png" height="320">
                 <p></p>
               </p>
             </panel>
             <panel header=":package: A simple GUI prototype for the same Minesweeper, created using Powerpoint:" type="seamless">
-              <p><img src="/website/book/gatheringRequirements/prototyping/images/guiPrototypeMinesweeper.jpg" height="250">
+              <p><img src="/website/book/gatheringRequirements/prototyping/images/guiPrototypeMinesweeper.jpg" height="220">
                 <p></p>
               </p>
             </panel>
-            <panel header=":package: A prototype for a mobile app, created using the UI prototyping tool Balsmiq:" type="seamless"><img src="/website/book/gatheringRequirements/prototyping/images/balsamiqPrototypeGUI.jpg" height="500">
+            <panel header=":package: A prototype for a mobile app, created using the UI prototyping tool Balsmiq:" type="seamless"><img src="/website/book/gatheringRequirements/prototyping/images/balsamiqPrototypeGUI.jpg" height="450">
               <p><span class="dimmed"><sup>[source: <a href="http://balsamiq.com/products/mockups">http://balsamiq.com/products/mockups</a>]</sup></span></p>
             </panel>
           </tip-box>
           <p></p>
-          <tip-box type="tip">
-            <p>Prototyping can be used for <em>discovering</em> as well as <em>specifying</em> requirements <span class="dimmed"> e.g. a UI prototype can serve as a specification of what to build</span>.</p>
-          </tip-box>
+          <p>💡 Prototyping can be used for <em>discovering</em> as well as <em>specifying</em> requirements <span class="dimmed"> e.g. a UI prototype can serve as a specification of what to build</span>.</p>
         </div>
       </div>
       <div>
@@ -1882,14 +1901,11 @@ AcademicStaff academicStaff = staff; // Not OK
           <tip-box>
             <p>📦 The product vision of the <a href="https://github.com/TEAMMATES/teammates">TEAMMATES Project</a> given below is described using prose.</p>
             <blockquote>
-              <h2 id="vision">Vision</h2>
               <p>TEAMMATES aims to become <strong>the biggest student project in the world</strong> (<em>biggest</em> here refers to 'many contributors, many users, large code base, evolving over a long period'). Furthermore, it aims to serve as a training
                 tool for Software Engineering students who want to learn SE skills in the context of <strong>a non-trivial real software product</strong>.</p>
             </blockquote>
           </tip-box>
-          <tip-box type="warning">
-            <p>Avoid using lengthy prose to describe requirements; they can be hard to follow.</p>
-          </tip-box>
+          <p>❗️ Avoid using lengthy prose to describe requirements; they can be hard to follow.</p>
         </div>
       </div>
       <h2 id="feature-list">Feature List</h2>
@@ -1938,7 +1954,7 @@ AcademicStaff academicStaff = staff; // Not OK
             </div>
           </tip-box>
           <tip-box>
-            <p>📦 Examples (from a Learning Management System):</p>
+            <p>📦 Examples (from a <em>Learning Management System</em>):</p>
             <ol>
               <li>As a student, I can download files uploaded by lecturers, so that I can get my own copy of the files</li>
               <li>As a lecturer, I can create discussion forums, so that students can discuss things online</li>
@@ -1946,7 +1962,8 @@ AcademicStaff academicStaff = staff; // Not OK
             </ol>
           </tip-box>
           <p></p>
-          <p><strong>We can write user stories on</strong> index cards or sticky notes, and arrange on walls or tables, to facilitate planning and discussion. Alternatively, we can use a software such as <a href="https://help.github.com/articles/about-project-boards/">GitHub Project Boards</a>            to manage user stories digitally.</p>
+          <p><strong>We can write user stories on</strong> index cards or sticky notes, and arrange on walls or tables, to facilitate planning and discussion. Alternatively, we can use a software (e.g., <a href="https://help.github.com/articles/about-project-boards/">GitHub Project Boards</a>,
+            Trello, Google Docs, ...) to manage user stories digitally.</p>
           <panel header="%%User stories in use%%" expanded="">
             <panel header="With sticky notes" type="seamless" expanded=""><img src="/website/book/specifyingRequirements/userStories/introduction/images/workingWithStories.jpg" height="400">
               <p><span class="dimmed"><sup>[credit: <a href="https://www.flickr.com/photos/jakuza/2682466984/">https://www.flickr.com/photos/jakuza/2682466984/</a>]</sup></span></p>
@@ -1969,9 +1986,7 @@ AcademicStaff academicStaff = staff; // Not OK
           <tip-box>
             <p>As a user, I can login to the system <s>so that I can access my data</s></p>
           </tip-box>
-          <tip-box type="warning">
-            <p>It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, we could end up adding features that have no real benefit.</p>
-          </tip-box>
+          <p>❗️ It is recommended to confirm there is a concrete benefit even if you omit it from the user story. If not, we could end up adding features that have no real benefit.</p>
           <p>We can add more characteristics to the <code>{user role}</code> to provide more context to the user story.</p>
           <tip-box>
             <ul>
@@ -2162,7 +2177,8 @@ AcademicStaff academicStaff = staff; // Not OK
                 <li>System:
                   <popover effect="fade" placement="right" content="Automated Teller Machine">
                     ATM </popover>
-                  Actor: Customer</li>
+                </li>
+                <li>Actor: Customer</li>
                 <li>Use Case: Check account balance
                   <ol>
                     <li>User inserts an ATM card</li>
@@ -2497,15 +2513,13 @@ AcademicStaff academicStaff = staff; // Not OK
           <tip-box>
             <p>📦 In this example, actor <code>Blogger</code> can do all the use cases the actor <code>Guest</code> can do, as a result of the actor generalization relationship given in the diagram.</p><img src="/website/book/specifyingRequirements/useCases/usage/images/actorGeneralisation.png"
               height="250"></tip-box>
-          <tip-box type="tip">
-            Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.
-          </tip-box>
+          <p>💡 Do not over-complicate use case diagrams by trying to include everything possible. A use case diagram is a brief summary of the use cases that is used as a starting point. Details of the use cases can be given in the use case descriptions.</p>
           <p><strong>Some include ‘System’ as an actor to indicate that something is done by the system itself without being initiated by a user or an external system.</strong></p>
           <tip-box>
             <p>📦 The diagram below can be used to indicate that the system generates daily reports at midnight.</p><img src="/website/book/specifyingRequirements/useCases/usage/images/systemAsActor.jpg" height="200"></tip-box>
           <p>However, others argue that only use cases providing value to an external user/system should be shown in the use case diagram. For example, they argue that ‘view daily report’ should be the use case and <code>generate daily report</code> is not
             to be shown in the use case diagram because it is simply something the system has to do to support the <code>view daily report</code> use case.</p>
-          <p>We recommend that you follow the latter view (i.e. not to use System as a user). Limit use cases for Modeling Behaviors that involve an external actor.</p>
+          <p>We recommend that you follow the latter view (i.e. not to use System as a user). Limit use cases for modeling behaviors that involve an external actor.</p>
           <p><strong>UML is not very specific about the text contents of a use case.</strong> Hence, there are many styles for writing use cases. For example, the steps can be written as a continuous paragraph. Use cases should be easy to read. Note that
             there is no strict rule about writing all details of all steps or a need to use all the elements of a use case.</p>
           <p><strong>There are some advantages of documenting system requirements as use cases:</strong></p>
@@ -2530,7 +2544,7 @@ AcademicStaff academicStaff = staff; // Not OK
             </div>
           </tip-box>
           <tip-box>
-            <p>📦 Here is a partial glossary from a variant of the Snakes and Ladders game:</p>
+            <p>📦 Here is a partial glossary from a variant of the <em>Snakes and Ladders</em> game:</p>
             <ul>
               <li>Conditional square: A square that specifies a specific face value which a player has to throw before his/her piece can leave the square.</li>
               <li>Normal square: a normal square does not have any conditions, snakes, or ladders in it.</li>
@@ -2544,9 +2558,9 @@ AcademicStaff academicStaff = staff; // Not OK
           <h4 id="what-one-5">What <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0031-20e3.png"></h4>
         </div>
         <div>
-          <p><strong>A <mark><em>supplementary requirements</em></mark> section can be used to capture <em>requirements that do not fit elsewhere</em></strong>. Typically, this is where most
+          <p><strong>A <em>supplementary requirements</em> section can be used to capture <em>requirements that do not fit elsewhere</em></strong>. Typically, this is where most
             <trigger trigger="click" for="modal:supplementary-nfr">Non Functional Requirements</trigger> will be listed.</p>
-          <modal title="" id="modal:supplementary-nfr">
+          <modal large="" title="" id="modal:supplementary-nfr">
             <div>
               <div></div>
               <p></p>
@@ -2567,12 +2581,14 @@ AcademicStaff academicStaff = staff; // Not OK
                   <tip-box>
                     <p>📦 Some examples of non-functional requirement categories:</p>
                     <ul>
-                      <li>Data requirements e.g. size, volatility, persistency etc.,</li>
+                      <li>Data requirements e.g. size,
+                        <tooltip content="how often do data change">volatility</tooltip>,
+                        <tooltip content="saving data permanenetly">persistency</tooltip> etc.,</li>
                       <li>Environment requirements e.g. technical environment in which system would operate or need to be compatible with.</li>
                       <li>Accessibility, Capacity, Compliance with regulations, Documentation, Disaster recovery, Efficiency, Extensibility, Fault tolerance, Interoperability, Maintainability, Privacy, Portability, Quality, Reliability, Response time, Robustness,
                         Scalability, Security, Stability, Testability, and more ...</li>
                     </ul>
-                    <panel type="seamless" header=":package: Some concrete examples of NFRs">
+                    <panel type="seamless" header=":package: Some concrete examples of NFRs" expanded="">
                       <ul>
                         <li>Business/domain rules: e.g. the size of the minefield cannot be smaller than five.</li>
                         <li>Constraints: e.g. the system should be backward compatible with data produced by earlier versions of the system; system testers are available only during the last month of the project; the total project cost should not exceed $1.5
@@ -2587,7 +2603,10 @@ AcademicStaff academicStaff = staff; // Not OK
                       </ul>
                     </panel>
                   </tip-box>
-                  <p><strong>Non-functional requirements are easier to miss.</strong> We should spend extra effort in digging them out as early as possible because sometimes they are critical to the success of the software. <span class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span></p>
+                  <p>We should spend extra effort in digging NFRs out as early as possible because <strong>NFRs are easier to miss</strong><span class="dimmed"> e.g., stakeholders tend to think of functional requirements first</span> and sometimes <strong>they are critical to the success of the software.</strong>
+                    <span
+                      class="dimmed"> E.g. A web application that is too slow or that has low security is unlikely to succeed even if it has all the right functionality.</span>
+                  </p>
                 </div>
                 <div>
                   <div>
@@ -2920,7 +2939,7 @@ AcademicStaff academicStaff = staff; // Not OK
         <div>
           <p><strong><em>Associations</em> among objects/classes play an important role in an OO solution.</strong></p>
           <p>
-            <panel src="/website\book\oopDesign\associations\basic\full._include_.html" header=":mortar_board: OOP → Associations → Basic" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\oopDesign\associations\basic\full._include_.html" header=":mortar_board: OOP → Associations → Basic" expanded=""></panel>
           </p>
           <p>The most basic class diagram is a bunch of classes with some solid lines among them to represent associations, such as this one.</p>
           <tip-box>
@@ -2930,10 +2949,10 @@ AcademicStaff academicStaff = staff; // Not OK
           </tip-box>
           <p>In addition, <strong>associations can show additional decorations such as <em>association labels</em>, <em>association roles</em>, <em>multiplicity</em> and <em>navigability</em></strong> to add more information to a class diagram.</p>
           <p>
-            <panel src="/website\book\uml\classDiagrams\associations\labels\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Labels" isOpen="false" no-close="true" no-switch="true"></panel>
-            <panel src="/website\book\uml\classDiagrams\associations\roles\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Roles" isOpen="false" no-close="true" no-switch="true"></panel>
-            <panel src="/website\book\oopDesign\associations\multiplicity\full._include_.html" header=":mortar_board: OOP → Associations → Multiplicity" isOpen="false" no-close="true" no-switch="true"></panel>
-            <panel src="/website\book\oopDesign\associations\navigability\full._include_.html" header=":mortar_board: OOP → Associations → Navigability" isOpen="false" no-close="true" no-switch="true"></panel>
+            <panel src="/website\book\uml\classDiagrams\associations\labels\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Labels" expanded=""></panel>
+            <panel src="/website\book\uml\classDiagrams\associations\roles\full._include_.html" header=":mortar_board: UML → Class Diagrams → Associations → Roles" expanded=""></panel>
+            <panel src="/website\book\oopDesign\associations\multiplicity\full._include_.html" header=":mortar_board: OOP → Associations → Multiplicity" expanded=""></panel>
+            <panel src="/website\book\oopDesign\associations\navigability\full._include_.html" header=":mortar_board: OOP → Associations → Navigability" expanded=""></panel>
           </p>
           <tip-box>
             <p>📦 Here is the same class diagram shown earlier but with some additional information included:</p>
@@ -4884,7 +4903,7 @@ exit();
           <h4 id="intermediate-two-4">Intermediate <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0032-20e3.png"></h4>
         </div>
         <div>
-          <panel header="**Minimise Scope of Variables**" type="seamless">
+          <panel header="**Minimise Scope of Variables**" type="seamless" expanded="">
             <div>
               <div>
                 <p><strong>Minimize global variables</strong>. Global variables may be the most convenient way to pass information around, but they do create implicit links between code segments that use the global variable. Avoid them as much as possible.</p>
@@ -4899,7 +4918,7 @@ exit();
               </div>
             </div>
           </panel>
-          <panel header="**Minimise Code Duplication**" type="seamless">
+          <panel header="**Minimise Code Duplication**" type="seamless" expanded="">
             <div>
               <div>
                 <p><strong>Code duplication, especially when you copy-paste-modify code, often indicates a poor quality implementation.</strong> While it may not be possible to have zero duplication, always think twice before duplicating code; most often
