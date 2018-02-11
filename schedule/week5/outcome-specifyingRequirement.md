@@ -76,7 +76,7 @@ Covered by the final project.
 
 <!-- ==================================================================================================== -->
 
-<panel type="success" header="`W6.3i` Can optimize the use of use cases :star::star::star::star:" expanded no-close>
+<panel type="success" header="`W5.10i` Can optimize the use of use cases :star::star::star::star:" expanded no-close>
   <include src="../../book/specifyingRequirements/useCases/usage/full.md" />
 <!-- TODO: add evidence -->
 </panel>
@@ -85,7 +85,7 @@ Covered by the final project.
 
 %%**Glossary**%%
 
-<panel type="info" header="`W6.3j` Can explain glossary :star::star::star:" expanded no-close>
+<panel type="info" header="`W5.10j` Can explain glossary :star::star::star:" expanded no-close>
   <include src="../../book/specifyingRequirements/glossary/what/full.md" />
 <!-- TODO: add evidence -->
 </panel>
@@ -94,7 +94,7 @@ Covered by the final project.
 
 %%**Supplementary Requirements**%%
 
-<panel type="info" header="`W6.3k` Can explain supplementary requirements :star::star::star:" expanded no-close>
+<panel type="info" header="`W5.10k` Can explain supplementary requirements :star::star::star:" expanded no-close>
   <include src="../../book/specifyingRequirements/supplementaryRequirements/what/full.md" />
 <!-- TODO: add evidence -->
 </panel>
