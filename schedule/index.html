@@ -171,130 +171,184 @@
   <panel src="/website\schedule\week1\index._include_.html" name="Week 1 [Jan 15]" header="Week 1 [Jan 15]" isOpen="false" no-close="true" no-switch="true"></panel>
   <panel src="/website\schedule\week2\index._include_.html" name="Week 2 [Jan 22]" header="Week 2 [Jan 22]" isOpen="false" no-close="true" no-switch="true"></panel>
   <panel src="/website\schedule\week3\index._include_.html" name=":exclamation: Week 3 [Jan 29]" header=":exclamation: Week 3 [Jan 29]" isOpen="false" no-close="true" no-switch="true"></panel>
-  <panel header=":exclamation: Week 4 [Feb 5]" expanded="" no-close="">
+  <panel src="/website\schedule\week4\index._include_.html" name=":exclamation: Week 4 [Feb 5]" header=":exclamation: Week 4 [Feb 5]" isOpen="false" no-close="true" no-switch="true"></panel>
+  <panel header=":exclamation: Week 5 [Feb 12]" expanded="" no-close="">
     <div>
-      <p><span class="dimmed">[<a href="/website/schedule/week4/outcomes.html" target="_blank">Open <em>Outcomes</em> in a new Window <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>]</span>
+      <p><span class="dimmed">[<a href="/website/schedule/week5/outcomes.html" target="_blank">Open <em>Outcomes</em> in a new Window <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>]</span>
       </p>
       <panel header=":trophy: Outcomes" ctrl-lvl="1" expanded="" no-close="">
         <div>
           <h3 id="design">Design:</h3>
           <p>
-            <panel type="info" src="/website\schedule\week4\outcome-model._include_.html" header="**`W4.1` Can explain models** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            <panel type="info" src="/website\schedule\week5\outcome-classDiagram._include_.html" header="**`W5.1` Can use intermediate-level class diagrams** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
           </p>
-          <p>
-            <panel type="danger" src="/website\schedule\week4\outcome-oop._include_.html" header="**`W4.2` Can explain OOP** :star:" no-close="true" isOpen="false" no-switch="true"></panel>
-          </p>
-          <p>
-            <panel type="danger" src="/website\schedule\week4\outcome-classStructure._include_.html" header="**`W4.3` Can explain basic object/class structures** :star:" no-close="true" isOpen="false" no-switch="true"></panel>
-          </p>
+
+          <panel type="info" header="**`W5.2` Can explain single responsibility principle** :star::star::star:" no-close="">
+            <div>
+              <div></div>
+              <p></p>
+              <p><span class="dimmed"><strong><span>Supplmentary → Principles →
+</span></strong>
+                </span>
+              </p>
+              <div>
+                <h4 id="single-responsibility-principle-two">Single Responsibility Principle <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0032-20e3.png"></h4>
+              </div>
+              <div id="main">
+                <div>
+                  <tip-box type="primary">
+                    <div>
+                      <p><strong>Single Responsibility Principle (SRP)</strong>: A class should have one, and only one, reason to change. <sub>-- Robert C. Martin</sub></p>
+                    </div>
+                  </tip-box>
+                  <p>If a class has only one responsibility, it needs to change only when there is a change to that responsibility.</p>
+                  <tip-box>
+                    <p>📦 Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes.
+                      Hence, such a class does not follow the SRP.</p>
+                  </tip-box>
+                </div>
+                <div>
+                  <div>
+                    <panel header=":paperclip:  Resources" expanded="">
+                      <ul>
+                        <li><a href="http://www.oodesign.com/single-responsibility-principle.html">An explanation of the SRP</a> from <a href="http://www.oodesign.com">www.oodesign.com</a></li>
+                        <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a> by Patkos Csaba</li>
+                        <li><a href="https://drive.google.com/file/d/0ByOwmqah_nuGNHEtcU5OekdDMkk/view">A book chapter on SRP</a> - A book chapter on SRP, written by the father of the principle itself Robert C Martin.</li>
+                      </ul>
+                    </panel>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <panel header=":dart: Evidence" expanded="">
+              <p><strong>Acceptable</strong>: Evidence of having used SRP in some project.</p>
+              <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2/blob/master/doc/LearningOutcomes.md#follow-the-single-responsibility-principle-lo-srp">Addressbook-Level2: LO-SRP</a>]</p>
+              <div>
+                <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2">Addressbook-Level2</a>. <mark>Only clean PRs</mark> (i.e. free of unrelated code modifications) will be accepted.</p>
+                <p>
+                  <panel src="/website\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" name="%%Admin » Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" fragment="tutorial-pr-instructions"
+                    header="%%Admin » Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" isOpen="false" no-close="true" no-switch="true"></panel>
+                </p>
+              </div>
+            </panel>
+          </panel>
           <h3 id="implementation">Implementation:</h3>
           <p>
-            <panel type="danger" src="/website\schedule\week4\outcome-implementClassStructures._include_.html" header="**`W4.4` Can implement classes** :star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            <panel type="danger" src="/website\schedule\week5\outcome-inheritance._include_.html" header="**`W5.3` Can implement inheritance** :star:" no-close="true" isOpen="false" no-switch="true"></panel>
           </p>
           <p>
-            <panel type="warning" src="/website\schedule\week4\outcome-exceptionHandling._include_.html" header="**`W4.5` Can do exception handling in code** :star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            <panel type="warning" src="/website\schedule\week5\outcome-classLevelMember._include_.html" header="**`W5.4` Can implement class-level members** :star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
           </p>
           <p>
-            <panel type="info" src="/website\schedule\week4\outcome-enumeration._include_.html" header="**`W4.6` Can use Java enumerations** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            <panel type="info" src="/website\schedule\week5\outcome-composition._include_.html" header="**`W5.5` Can implement composition** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
           </p>
-          <h3 id="project-management">Project Management:</h3>
           <p>
-            <panel type="danger" src="/website\schedule\week4\outcome-pr._include_.html" header="**`W4.7` Can create PRs on GitHub** :star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            <panel type="info" src="/website\schedule\week5\outcome-aggregation._include_.html" header="**`W5.6` Can implement aggregation** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
           </p>
+          <p>
+            <panel type="info" src="/website\schedule\week5\outcome-overloading._include_.html" header="**`W5.7` Can implement overloading** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+          </p>
+
+          <h3 id="requirements">Requirements:</h3>
+          <p>
+            <panel type="warning" src="/website\schedule\week5\outcome-requirements._include_.html" header="**`W5.8` Can explain requirements** :star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+          </p>
+          <p>
+            <panel type="info" src="/website\schedule\week5\outcome-gatheringRequirement._include_.html" header="**`W5.9` Can explain some techniques for gathering requirements** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+          </p>
+          <p>
+            <panel type="danger" src="/website\schedule\week5\outcome-specifyingRequirement._include_.html" header="**`W5.10` Can use some techniques for specifying requirements** :star:" no-close="true" isOpen="false" no-switch="true"></panel>
+          </p>
+          <h3 id="other">Other:</h3>
+          <panel type="danger" header="**`W5.11` Can work with a 2KLoC code base** :star: ==[Compulsory]==" expandable="">
+            <panel header=":dart: Evidence" expanded="">
+              <div>
+                <tip-box type="important">
+                  This LO requires coordination and cooperation among team members. It also requires a few days to complete; we recommend that you start it early in the week rather than just before the tutorial day.
+                </tip-box>
+                <p>💡 <strong>Those who failed to produce working code at 1KLoC milestone</strong> (in week 3) can recover the lost marks by doing <em>two</em> enhancements at this milestone.</p>
+                <p>💡 When working with existing code, a safe approach is to <strong>change the code in very small steps, each resulting in a verifiable change</strong> without breaking the app. For example, when adding a new <code>sort</code> command, the
+                  first few steps can be,</p>
+                <ol>
+                  <li>Teach the app to accept a <code>sort</code> command but ignore it.</li>
+                  <li>Next, teach the app to direct the <code>sort</code> command to an existing command e.g. <code>sort</code> command simply invokes the <code>list</code> command internally.</li>
+                  <li>Add a <code>SortCommand</code> class but make it simply a copy of the the existing <code>ListCommand</code>. Direct the <code>sort</code> command to the new <code>SortCommand</code>.</li>
+                  <li>...</li>
+                </ol>
+                <p>💡 Note that you can reuse the code you write here in your final project, if applicable.</p>
+                <h4 id="individual-component">Individual component:</h4>
+                <p><strong>You can omit this individual component if</strong> you have worked with a code base that meets the following criteria:</p>
+                <ul>
+                  <li>more than 2KLoC of the code base was written by other developers</li>
+                  <li>your code included automated tests</li>
+                  <li>your code was contributed via a proper revision control workflow e.g. pull requests</li>
+                </ul>
+                <p><strong>Requirements</strong>: Do an enhancement to [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2">AddressBook - Level2</a>] <span class="dimmed">e.g. add a new command</span>. It can be the same enhancement you did
+                  to AddressBook Level1 (at the 1KLoC milestone in week 3). The size of the enhancement does not matter but you must,</p>
+                <ul>
+                  <li>update the User Guide</li>
+                  <li>update existing tests and add new tests if necessary, for both JUnit tests and I/O tests</li>
+                  <li>follow the coding standard</li>
+                  <li>follow the OOP style</li>
+                </ul>
+                <p>Optional but encouraged:</p>
+                <ul>
+                  <li>Update the Developer Guide</li>
+                </ul>
+                <div>
+                  <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2">Addressbook-Level2</a>. <mark>Only clean PRs</mark> (i.e. free of unrelated code modifications) will be accepted.</p>
+                  <p>
+                    <panel src="/website\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" name="%%Admin » Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" fragment="tutorial-pr-instructions"
+                      header="%%Admin » Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" isOpen="false" no-close="true" no-switch="true"></panel>
+                  </p>
+                </div>
+                <h4 id="team-component">Team component:</h4>
+                <p>The team component is <mark>to be done by all members</mark>, including those who were allowed to omit the individual component.</p>
+                <ul>
+                  <li>
+                    <p>Review PRs created by team members in the <em>Individual Component</em> above <span class="dimmed">i.e. add review comments in the PR created against module repo</span>. You can either give suggestions to improve, or ask questions
+                      to understand, the code written by the team member.</p>
+                  </li>
+                  <li>
+                    <p><strong>Requirements</strong>: Try to ensure that each PR reviewed by <em>at least</em> one team member and each team member's PR is reviewed by at least one other team member.</p>
+                  </li>
+                  <li>
+                    <p><strong>Submission</strong>: Just update PR created in the individual component by adding comments/commits to it.</p>
+                  </li>
+                </ul>
+              </div>
+            </panel>
+          </panel>
         </div>
       </panel>
       <panel header=":clipboard: Todo" ctrl-lvl="1" no-close="">
         <div>
           <panel header="Admin info to read" expandable="" expanded="">
             <p>
-              <panel type="danger" src="/website\admin\appendixB-policies._include_.html#policy-plagiarism" name="%%Admin »%% Policy on plagiarism :star:" fragment="policy-plagiarism" header="%%Admin »%% Policy on plagiarism :star:" isOpen="false"
-                no-close="true" no-switch="true"></panel>
-              <panel type="danger" src="/website\admin\appendixB-policies._include_.html#policy-reuse" name="%%Admin »%% Policy on reuse :star:" fragment="policy-reuse" header="%%Admin »%% Policy on reuse :star:" isOpen="false" no-close="true" no-switch="true"></panel>
-              <panel type="danger" src="/website\admin\appendixB-policies._include_.html#policy-outsiderHelp" name="%%Admin »%% Policy on help from outsiders :star:" fragment="policy-outsiderHelp" header="%%Admin »%% Policy on help from outsiders :star:" isOpen="false"
-                no-close="true" no-switch="true"></panel>
-            </p>
-            <p>
-              <panel type="info" src="/website\admin\exams._include_.html" name="%%Admin »%% Exams :star::star::star:" header="%%Admin »%% Exams :star::star::star:" isOpen="false" no-close="true" no-switch="true"></panel>
-            </p>
-            <p>
-              <panel type="success" src="/website\admin\appendixC-faq._include_.html#admin-faq-noLaptop" name="%%Admin »%% FAQ: What if I don't carry around a laptop :star::star::star::star:" fragment="admin-faq-noLaptop" header="%%Admin »%% FAQ: What if I don't carry around a laptop :star::star::star::star:"
+              <panel type="warning" src="/website\admin\appendixB-policies._include_.html#policy-workDistribution" name="%%Admin »%% Policy on project work distribution :star::star:" fragment="policy-workDistribution" header="%%Admin »%% Policy on project work distribution :star::star:"
                 isOpen="false" no-close="true" no-switch="true"></panel>
             </p>
             <p>
-              <panel type="success" src="/website\admin\appendixB-policies._include_.html#policy-publishingSubmissions" name="%%Admin »%% Policy on publishing submissions :star::star::star::star:" fragment="policy-publishingSubmissions" header="%%Admin »%% Policy on publishing submissions :star::star::star::star:"
+              <panel type="info" src="/website\admin\appendixB-policies._include_.html#policy-responseTime" name="%%Admin »%% Policy on email response time :star::star::star:" fragment="policy-responseTime" header="%%Admin »%% Policy on email response time :star::star::star:"
+                isOpen="false" no-close="true" no-switch="true"></panel>
+            </p>
+            <p>
+              <panel type="success" src="/website\admin\appendixB-policies._include_.html#policy-teamSize" name="%%Admin »%% Policy on grading smaller/larger teams :star::star::star::star:" fragment="policy-teamSize" header="%%Admin »%% Policy on grading smaller/larger teams :star::star::star::star:"
+                isOpen="false" no-close="true" no-switch="true"></panel>
+              <panel type="success" src="/website\admin\appendixC-faq._include_.html#admin-faq-beanCounting" name="%%Admin »%% FAQ: Why so much bean counting? :star::star::star::star:" fragment="admin-faq-beanCounting" header="%%Admin »%% FAQ: Why so much bean counting? :star::star::star::star:"
                 isOpen="false" no-close="true" no-switch="true"></panel>
             </p>
           </panel>
         </div>
       </panel>
-      <panel header=":raising_hand: Tutorial 4" ctrl-lvl="1" no-close="">
+      <panel header=":raising_hand: Tutorial 5" ctrl-lvl="1" no-close=""></panel>
+      <panel header=":loudspeaker: Lecture 5" ctrl-lvl="1" no-close="">
         <div>
-          <tip-box type="important">
-            <p>In this week's tutorial we would like to ensure that,</p>
-            <ol>
-              <li><strong><em>All</em> students are able to create branch-based PRs without accidentally mixing commits</strong> between PRs (a common mistake)</li>
-              <li><strong><em>At least some members</em> of the team are able to resolve merge conflicts and merge PRs</strong></li>
-            </ol>
-            <p><span class="dimmed">Reason: These two skills are going to be essential for you in future weeks because most of your work will require creating PRs.</span></p>
-            <p>Therefore, we <strong>strongly encourage you to achieve the <code>W4.7 Can create PRs on GitHub</code> before coming to the tutorial</strong>. If not, you'll have to do it during the tutorial and then there will be less time for you to do
-              the other activities we have planned for this tutorial</p>
-          </tip-box>
-          <ul>
-            <li>This week we don't join teams during discussions, to give you more time to work with your own team members in preparation for the upcoming peer review in week 6.</li>
-            <li>As before, discuss evidence of achieving LOs as directed by the tutor.</li>
-          </ul>
-          <p><strong>Suggested question to discuss:</strong></p>
-          <div>
-            <panel header=":lock: Explain Class Diagram">
-              <question>
-                <p>Explain the associations, navigabilities, and multiplicities in the class diagram below:</p>
-                <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
-                <p></p>
-              </question>
-            </panel>
-          </div>
-          <div>
-            <panel header=":lock: Object Diagrams for Class Diagram">
-              <question>
-                <p>Suppose we wrote a program to follow the class structure given in this class diagram:</p>
-                <img src="/website/book/modeling/modelingStructures/classDiagramsBasic/images/typicalClasssStructure.png" width="400">
-                <p></p>
-                <p>Draw object diagrams to represent the object structures after each of these steps below. Assume that we are trying to minimize the number of total objects.</p>
-                <p>i.e. apply step 1 → [diagram 1] → apply step 2 on diagarm 1 → [diagarm 2] and so on.</p>
-                <ol>
-                  <li>
-                    <p>There are no persons.</p>
-                  </li>
-                  <li>
-                    <p><code>Alfred</code> is the Guardian of <code>Bruce</code>.</p>
-                  </li>
-                  <li>
-                    <p><code>Bruce</code>'s contact number is the same as <code>Alfred</code>'s.</p>
-                  </li>
-                  <li>
-                    <p><code>Alfred</code> is also the guardian of another person. That person lists <code>Alfred</code>s home address as his home address as well as office address.</p>
-                  </li>
-                  <li>
-                    <p><code>Alfred</code> has a an office address at <code>Wayne Industries</code> building which is different from his home address (i.e. <code>Bat Cave</code>).</p>
-                  </li>
-                </ol>
-                <div slot="hint">
-                  <p>After step 2, the diagram should be like this:</p>
-                  <img src="/website/book/oopImplementation/associations/images/objectDiagramsForClassDiagramHint.png" width="600"></div>
-              </question>
-            </panel>
-          </div>
-        </div>
-      </panel>
-      <panel header=":loudspeaker: Lecture 4" ctrl-lvl="1" no-close="">
-        <div>
-          <p><strong>E-learning</strong>: [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E4P1.%20OOP%20-%20More%20UML.mp4">OOP - More UML</a>] [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E4P2.%20OOP%20-%20Inheritance.mp4">OOP - Inheritance</a>]</p>
-          <p><strong>Slides</strong>: [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L4P1.%20Object-Oriented%20Programming%20-%20Intermediate.pptx">Object-Oriented Programming - Intermediate</a>] [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L4P2.%20Problem%20Before%20Solution%20-%20Figuring%20Out%20Requirements.pptx">Problem Before Solution - Figuring Out Requirements.pptx</a>]</p>
+          <p>[<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L5.pptx">slides</a>]</p>
         </div>
       </panel>
     </div>
   </panel>
-  <panel src="/website\schedule\week5\index._include_.html" name=":exclamation: Week 5 [Feb 12]" header=":exclamation: Week 5 [Feb 12]" isOpen="false" no-close="true" no-switch="true"></panel>
   <panel src="/website\schedule\week6\index._include_.html" name="Week 6 [Feb 19]" header="Week 6 [Feb 19]" isOpen="false" no-close="true" no-switch="true"></panel>
   <panel src="/website\schedule\week7\index._include_.html" name="Week 7 [Mar 5]" header="Week 7 [Mar 5]" isOpen="false" no-close="true" no-switch="true"></panel>
   <panel src="/website\schedule\week8\index._include_.html" name="Week 8 [Mar 12]" header="Week 8 [Mar 12]" isOpen="false" no-close="true" no-switch="true"></panel>
