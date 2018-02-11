@@ -22,7 +22,7 @@
 
 **Acceptable**: Using user stories in any past project.
 
-**Suggested**: Do the exercise in [[Addressbook-Level3: LO-UesrStories](https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#utilize-user-stories-lo-userstories)]
+**Suggested**: Do the exercise in [[Addressbook-Level3: LO-UserStories](https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#utilize-user-stories-lo-userstories)]
    
 <include src="submissionAB3.md" />
 
