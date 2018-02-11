@@ -24,7 +24,7 @@
 
 **Suggested**: Do the exercise in [[Addressbook-Level3: LO-UesrStories](https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#utilize-user-stories-lo-userstories)]
    
-<include src="submission.md" />
+<include src="submissionAB3.md" />
 
   </panel>
 </panel>
@@ -69,7 +69,7 @@ Covered by the final project.
 
 **Suggested**: Do the exercise in [[Addressbook-Level3: LO-UseCases](https://github.com/nus-cs2103-AY1718S2/addressbook-level3/blob/master/doc/LearningOutcomes.md#utilize-use-cases-lo-usecases)]
    
-<include src="submission.md" />
+<include src="submissionAB3.md" />
 
   </panel>
 </panel>
