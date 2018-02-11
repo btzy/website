@@ -1,10 +1,10 @@
-<panel type="danger" header="`W5.9a` Can explain forking workflow :star:" expanded no-close>
+<panel type="danger" header="`W6.2a` Can explain forking workflow :star:" expanded no-close>
   <include src="../../book/revisionControl/forkingWorkflow/full.md" />
 </panel>
 
 <!-- ==================================================================================================== -->
 
-<panel type="warning" header="`W5.9b` Can follow Forking Workflow :star::star:" expanded no-close>
+<panel type="warning" header="`W6.2b` Can follow Forking Workflow :star::star:" expanded no-close>
   <include src="../../book/gitAndGithub/forkingWorkflow/full.md" />
   <panel header=":dart: Evidence" expanded>
 
@@ -19,16 +19,16 @@
 
 <!-- ==================================================================================================== -->
 
-<panel type="success" header="`W5.9c` Can explain DRCS vs CRCS :star::star::star::star:" expanded no-close>
+<panel type="success" header="`W6.2c` Can explain DRCS vs CRCS :star::star::star::star:" expanded no-close>
   <include src="../../book/revisionControl/drcsVsCrcs/full.md" />
 </panel>
 
-<panel type="success" header="`W5.9d` Can explain feature branch flow :star::star::star::star:" expanded no-close>
+<panel type="success" header="`W6.2d` Can explain feature branch flow :star::star::star::star:" expanded no-close>
   <include src="../../book/revisionControl/featureBranchFlow/full.md" />
 </panel>
 
 <!-- ==================================================================================================== -->
 
-<panel type="success" header="`W5.9e` Can explain centralized flow :star::star::star::star:" expanded no-close>
+<panel type="success" header="`W6.2e` Can explain centralized flow :star::star::star::star:" expanded no-close>
   <include src="../../book/revisionControl/centralizedFlow/full.md" />
 </panel>
