@@ -22,7 +22,7 @@
           <ul>
             <li><code>Report#print()</code> method is overridden by <code>EvaluationReport#print()</code> method.</li>
             <li><code>Report#write(String)</code> method is overridden by <code>EvaluationReport#write(String)</code> method.</li>
-            <li><code>Report#read():String</code> method is <strong>NOT</strong> overridden by <code>EvaluationReport#read(int):String</code> method. <span class="dimmed"> Reason: the two methods have different signatures; <code>EvaluationReport#read(int):String</code><trigger trigger="click" for="modal:overriding-overloading"><em>overloads</em></trigger> (rather than overrides) the <code>Report#read():String</code> method.</span></li>
+            <li><code>Report#read():String</code> method is <strong>NOT</strong> overridden by <code>EvaluationReport#read(int):String</code> method. <span class="dimmed"> Reason: the two methods have different signatures; <code>EvaluationReport#read(int):String</code> <trigger trigger="click" for="modal:overriding-overloading"> <em>overloads</em></trigger> (rather than overrides) the <code>Report#read():String</code> method.</span></li>
           </ul>
           <modal title="**Overloading**" id="modal:overriding-overloading">
             <div>
@@ -38,12 +38,10 @@
               <div id="main">
                 <div>
                   <p><strong>Method overloading is when there are multiple methods with the same name but different type signatures.</strong> Overloading is used to indicate that multiple operations do similar things but take different parameters.</p>
-                  <tip-box
-                    type="primary">
+                  <tip-box type="primary">
                     <div>
                       <p><strong>Type Signature</strong>: The <em>type signature</em> of an operation is the type sequence of the parameters. The return type and parameter names are not part of the type signature. However, the parameter order is significant.</p>
-                      <panel
-                        type="seamless" header="%%Examples%%">
+                      <panel type="seamless" header="%%Examples%%">
                         <table class="markbind-table table">
                           <thead>
                             <tr>
@@ -70,28 +68,29 @@
                             </tr>
                           </tbody>
                         </table>
-</panel>
-</div>
-</tip-box>
-<tip-box>
-  <p>📦 In the class below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int[])</code></p>
-  <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RatingCalculator</span></span>{
+                      </panel>
+                    </div>
+                  </tip-box>
+                  <tip-box>
+                    <p>📦 In the class below, the <code>calculate</code> method is overloaded because the two methods have the same name but different type signatures <code>(String)</code> and <code>(int[])</code></p>
+                    <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RatingCalculator</span></span>{
     <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">calculate</span><span class="hljs-params">(String matric)</span> </span>{ ... }
     <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">calculate</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] averages)</span> </span>{ ... }
 }
 </code></pre>
-</tip-box>
-</div>
-<div></div>
-</div>
-</div>
-</modal><img src="/website/book/oopDesign/inheritance/overriding/images/report.png" height="150">
-<p></p>
-</tip-box>
-</div>
-<div></div>
-</div>
-</div>
+                  </tip-box>
+                </div>
+                <div></div>
+              </div>
+            </div>
+          </modal>
+          <img src="/website/book/oopDesign/inheritance/overriding/images/report.png" height="150">
+          <p></p>
+        </tip-box>
+      </div>
+      <div></div>
+    </div>
+  </div>
 </panel>
 <!-- ==================================================================================================== -->
 <panel type="danger" header="`W6.5b` Can implement overriding :star:" expanded="" no-close="">
@@ -159,7 +158,8 @@
             <div>
               <panel header=":lock::key: Which methods override?">
                 <question>
-                  <p>Which of these methods override another method?</p><img src="/website/book/oopImplementation/overriding/images/overriding.png" height="220">
+                  <p>Which of these methods override another method?</p>
+                  <img src="/website/book/oopImplementation/overriding/images/overriding.png" height="220">
                   <p></p>
                   <ul class="task-list">
                     <li class="task-list-item"><input class="task-list-item-checkbox" type="checkbox"> a</li>
@@ -210,7 +210,8 @@
         <p>Take the example of writing a payroll application for a university to facilitate payroll processing of university staff. Suppose an <code>adjustSalary(int)</code> operation adjusts the salaries of all staff members. This operation will be executed
           whenever the university initiates a salary adjustment for its staff. However, the adjustment formula is different for different staff categories, say admin and academic. Here is one possible way of designing the classes in the <code>Payroll</code>          system.</p>
         <tip-box>
-          <p>📦 Calling <code>adjustSalary()</code> method for each Staff type:</p><img src="/website/book/oopDesign/polymorphism/introduction/images/payroll.png" height="150">
+          <p>📦 Calling <code>adjustSalary()</code> method for each Staff type:</p>
+          <img src="/website/book/oopDesign/polymorphism/introduction/images/payroll.png" height="150">
           <p></p>
           <p>Here is the implementation of the <code>adjustSalary(int)</code> operation from the above design.</p>
           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll1</span> </span>{
@@ -290,6 +291,7 @@
           <p>📦 Continuing with the example given in [
             <trigger trigger="click" for="modal:oopImpl-polymorphism">🎓 OOP → Polymorphism → Introduction </trigger>], given below is the minimum code for <code>Staff</code>, <code>Admin</code>, and <code>Academic</code> classes that achieves the desired polymorphism.</p>
           <modal title="" id="modal:oopImpl-polymorphism">
+          
             <div>
               <div></div>
               <p></p>
@@ -314,7 +316,8 @@
                     be executed whenever the university initiates a salary adjustment for its staff. However, the adjustment formula is different for different staff categories, say admin and academic. Here is one possible way of designing the classes
                     in the <code>Payroll</code> system.</p>
                   <tip-box>
-                    <p>📦 Calling <code>adjustSalary()</code> method for each Staff type:</p><img src="/website/book/oopDesign/polymorphism/introduction/images/payroll.png" height="150">
+                    <p>📦 Calling <code>adjustSalary()</code> method for each Staff type:</p>
+                    <img src="/website/book/oopDesign/polymorphism/introduction/images/payroll.png" height="150">
                     <p></p>
                     <p>Here is the implementation of the <code>adjustSalary(int)</code> operation from the above design.</p>
                     <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Payroll1</span> </span>{
@@ -368,7 +371,8 @@
                 <div></div>
               </div>
             </div>
-          </modal><img src="/website/book/oopImplementation/polymorphism/images/polymorphicPayroll.png" height="200">
+          </modal>
+          <img src="/website/book/oopImplementation/polymorphism/images/polymorphicPayroll.png" height="200">
           <p></p>
           <pre><code class="hljs java"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Staff</span> </span>{
     String name;
@@ -465,7 +469,8 @@
         </p>
         <p></p>
         <tip-box>
-          <p>📦 The <code>Account</code> class has an abstract method (<code>addInterest()</code>).</p><img src="/website/book/oopDesign/inheritance/abstractClasses/images/account.png" height="220">
+          <p>📦 The <code>Account</code> class has an abstract method (<code>addInterest()</code>).</p>
+          <img src="/website/book/oopDesign/inheritance/abstractClasses/images/account.png" height="220">
           <p></p>
         </tip-box>
       </div>
@@ -493,7 +498,8 @@
       <div>
         <p><strong>Use the <code>abstract</code> keyword to identify abstract classes/methods.</strong></p>
         <tip-box>
-          <p>📦 Partial code below gives an example of how to declare abstract classes/methods.</p><img src="/website/book/oopDesign/inheritance/abstractClasses/images/account.png" height="220">
+          <p>📦 Partial code below gives an example of how to declare abstract classes/methods.</p>
+          <img src="/website/book/oopDesign/inheritance/abstractClasses/images/account.png" height="220">
           <p></p>
           <pre><code class="hljs java"><span class="hljs-keyword">abstract</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Account</span> </span>{
     
@@ -591,14 +597,13 @@
         <p></p>
         <tip-box>
           <p>📦 <code>SalariedStaff</code> is an interface that contains two methods <code>setSalary(int)</code> and <code>getSalary()</code>. <code>AcademicStaff</code> implements the <code>SalariedStaff</code> interface. <span class="dimmed"> That means an <code>AcademicStaff</code> object is able to support the behaviors <code>setSalary(int)</code> and <code>getSalary()</code>. That's why the same two methods also appear under the methods implemented by the <code>AcademicStaff</code> class (in blue)</span></p>
-          <img
-            src="/website/book/oopDesign/inheritance/interfaces/images/staff.png" height="250">
-            <p></p>
+          <img src="/website/book/oopDesign/inheritance/interfaces/images/staff.png" height="250">
+          <p></p>
         </tip-box>
         <p><strong>A class implementing an interface results in an <em>is-a</em> relationship</strong>, just like in class inheritance.</p>
         <tip-box>
-          <p>📦 In the example above, <code>AcademicStaff</code><em>is a</em><code>SalariedStaff</code>. An <code>AcademicStaff</code> object can be used anywhere a <code>SalariedStaff</code> object is expected e.g. <code>SalariedStaff ss = new AcademicStaff()</code>.</p>
-          <p><span class="dimmed"> Similarly, <code>AdminStaff</code><em>is a</em><code>SalariedStaff</code> too.</span></p>
+          <p>📦 In the example above, <code>AcademicStaff</code> <em>is a</em> <code>SalariedStaff</code>. An <code>AcademicStaff</code> object can be used anywhere a <code>SalariedStaff</code> object is expected e.g. <code>SalariedStaff ss = new AcademicStaff()</code>.</p>
+          <p><span class="dimmed"> Similarly, <code>AdminStaff</code> <em>is a</em> <code>SalariedStaff</code> too.</span></p>
         </tip-box>
         <p></p>
       </div>
@@ -626,13 +631,14 @@
       <div>
         <p><strong>Java allows multiple inheritance among interfaces. A Java class can <em>implement</em> multiple interfaces</strong> (and inherit from one class).</p>
         <tip-box>
-          <p>📦 The design below is allowed by Java.</p><img src="/website/book/oopDesign/inheritance/interfaces/images/studentStaff.png" height="250">
+          <p>📦 The design below is allowed by Java.</p>
+          <img src="/website/book/oopDesign/inheritance/interfaces/images/studentStaff.png" height="250">
           <p></p>
           <ol>
             <li><code>Staff</code> interface inherits (note the solid lines) the interfaces <code>TaxPayer</code> and <code>Citizen</code>.</li>
             <li><code>TA</code> class implements both <code>Student</code> interface and the <code>Staff</code> interface.</li>
             <li>Because of point 1 above, <code>TA</code> class has to implement all methods in the interfaces <code>TaxPayer</code> and <code>Citizen</code>.</li>
-            <li>Because of points 1,2,3, a <code>TA</code><em>is a</em><code>Staff</code>, <em>is a</em><code>TaxPayer</code> and <em>is a</em><code>Citizen</code>.</li>
+            <li>Because of points 1,2,3, a <code>TA</code> <em>is a</em> <code>Staff</code>, <em>is a</em> <code>TaxPayer</code> and <em>is a</em> <code>Citizen</code>.</li>
           </ol>
         </tip-box>
         <p><strong>Java uses the <code>interface</code> keyword to declare interfaces and <code>implements</code> keyword to indicate that a class implements a given interface.</strong> Inheritance among interfaces uses the <code>extends</code> keyword,
