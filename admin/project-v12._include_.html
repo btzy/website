@@ -31,7 +31,6 @@
 </tip-box>
 <p>As before, you are <em>recommended</em> (but not required) to <strong>follow the forking workflow</strong> when evolving the product.</p>
 <modal large="" title="Admin » Appendix E: Github: Project Schedule Tracking" id="modal:v12-projectTracking">
-
   <div>
     <h2 id="project-schedule-tracking">Project Schedule Tracking</h2>
     <p>In general, use the issue tracker (Milestones, Issues, PRs, Tags, Releases, and Labels) for assigning, scheduling, and tracking <em>all</em> noteworthy project tasks, including user stories. Update the issue tracker regularly to reflect the current
@@ -39,9 +38,7 @@
     <h3 id="using-issues">Using Issues:</h3>
     <ul>
       <li>
-        <p><strong>Record each of the user stories you plan to deliver as an issue in the issue tracker.</strong>
-          <span class="dimmed">e.g.</span> <code>Title: As a user I can add a deadline</code><br>
-          <code>Description: ... so that I can keep track of my deadlines</code></p>
+        <p><strong>Record each of the user stories you plan to deliver as an issue in the issue tracker.</strong><span class="dimmed">e.g.</span><code>Title: As a user I can add a deadline</code><br><code>Description: ... so that I can keep track of my deadlines</code></p>
       </li>
       <li>
         <p><strong>Assign the <code>type.*</code> and <code>priority.*</code> labels to those issues.</strong></p>
@@ -54,17 +51,17 @@
         </ul>
       </li>
       <li>
-        <p><strong>Write a descriptive title for the issue.</strong> <span class="dimmed">e.g. Add support for the 'undo' command to the parser.</span></p>
+        <p><strong>Write a descriptive title for the issue.</strong><span class="dimmed">e.g. Add support for the 'undo' command to the parser.</span></p>
       </li>
       <li>
         <p><strong>There is no need to break things into VERY small tasks.</strong> Keep them as big as possible, but they should be no bigger than what you are going to assign a single person to do within a week. <span class="dimmed">eg.,</span></p>
         <ul>
-          <li><code>Implementing parser</code>  <span class="dimmed">: too big because it cannot be done by a single person in a week.</span></li>
-          <li><code>Implementing parser support for adding of floating tasks</code> <span class="dimmed">: appropriate size.</span></li>
+          <li><code>Implementing parser</code><span class="dimmed">: too big because it cannot be done by a single person in a week.</span></li>
+          <li><code>Implementing parser support for adding of floating tasks</code><span class="dimmed">: appropriate size.</span></li>
         </ul>
       </li>
       <li>
-        <p><strong>Do not track things taken for granted.</strong> <span class="dimmed">e.g., <code>push code to repo</code> should not be a task to track. In the example given under the previous point, it is taken for granted that the owner will also (a) test the code and (b) push to the repo when it is ready. Those two need not be tracked as separate tasks.</span></p>
+        <p><strong>Do not track things taken for granted.</strong><span class="dimmed">e.g., <code>push code to repo</code> should not be a task to track. In the example given under the previous point, it is taken for granted that the owner will also (a) test the code and (b) push to the repo when it is ready. Those two need not be tracked as separate tasks.</span></p>
       </li>
       <li>
         <p><strong>Omit redundant details.</strong> In some cases, the summary/title is enough to describe the task. In that case, no need to repeat it in the description. There is no need for well-crafted and detailed descriptions for tasks. A minimal description
@@ -90,8 +87,7 @@
           <p>Note that you can change the milestone plan along the way as necessary.</p>
         </li>
       </ul>
-      <p><strong>Wrapping up a Milestone</strong>:<br>
-        <mark>Here are the conditions to satisfy for a milestone to be considered properly wrapped up</mark>:</p>
+      <p><strong>Wrapping up a Milestone</strong>:<br><mark>Here are the conditions to satisfy for a milestone to be considered properly wrapped up</mark>:</p>
       <ul>
         <li>
           <p>A working product tagged with the correct tag (e.g. v1.2) is pushed to the main repo.</p>
@@ -100,12 +96,10 @@
           <p>All tests passing on Travis for the version tagged above.</p>
         </li>
         <li>
-          <p>Milestone updated to match the product i.e. all issues completed and PRs merged for the milestone should be assigned to the milestone.<br>
-            <img src="/website/admin/images/assigningIssuesToMilestones.png" width="700"></p>
+          <p>Milestone updated to match the product i.e. all issues completed and PRs merged for the milestone should be assigned to the milestone.<br><img src="/website/admin/images/assigningIssuesToMilestones.png" width="700"></p>
         </li>
         <li>
-          <p>Milestone closed. If there are incomplete issues or unmerged PRs in the milestone, move them to a future milestone.<br>
-            <img src="/website/admin/images/closingMilestones.png" width="700"></p>
+          <p>Milestone closed. If there are incomplete issues or unmerged PRs in the milestone, move them to a future milestone.<br><img src="/website/admin/images/closingMilestones.png" width="700"></p>
         </li>
         <li>
           <p>Optionally, issues for the next milestone are assigned to team members (this is not compulsory to do <em>before</em> the tutorial, but we recommend you to do it soon after the tutorial).</p>
@@ -120,8 +114,11 @@
     </div>
   </div>
 </modal>
-<p><strong>From v1.2 onwards each member is expected to contribute <tooltip content="the amount of code does not matter; even small contributions are acceptable">some</tooltip> code to each <tooltip content="v1.2, v1.3, ...">weekly milestone</tooltip>; only merged code is considered as contributions</strong>  <span class="dimmed"><popover content="The ability to deliver code incrementally is an important LO of this module because incremental delivery improves the _visibility_ of your work.">(Reason)</popover></span>. <br> If an enhancement is too big to
-  complete in one week, here are some options:</p>
+<p><strong>From v1.2 onwards each member is expected to contribute <tooltip content="the amount of code does not matter; even small contributions are acceptable">some</tooltip> code to each <tooltip content="v1.2, v1.3, ...">weekly milestone</tooltip>; only merged code is considered as contributions</strong>
+  <span
+    class="dimmed">
+    <popover content="The ability to deliver code incrementally is an important LO of this module because incremental delivery improves the _visibility_ of your work.">(Reason)</popover>
+    </span>. <br> If an enhancement is too big to complete in one week, here are some options:</p>
 <ul>
   <li>[Preferred] Deliver it in smaller incremental steps e.g. deliver a basic version of the enhancement first.</li>
   <li>Choose not to contribute to the weekly milestone. This should be fine as long as you don't miss more than two milestones.</li>
@@ -136,7 +133,6 @@
   <p>Also note
     <trigger trigger="click" for="modal:v12-testingExpectations">our expectation on test code</trigger>.</p>
   <modal title="Admin » Project Asessement → Expectation on testing" id="modal:v12-testingExpectations">
-  
     <div>
       <ul>
         <li>There is no requirement for a minimum coverage level. Note that in a production environment you are often required to have at least 90% of the code covered by tests. In this project, it can be less. The less coverage you have, the higher the risk
@@ -192,7 +188,7 @@ method 4 ...
           <pre class="hljs"><code>&lt;!-- @@author sereneWong --&gt;
 &lt;textbox&gt;
   &lt;label&gt;...&lt;/label&gt;
-  &lt;input&gt;...&lt;/input&gt;
+  &lt;input&gt;...
 &lt;/textbox&gt;
 ...
 </code></pre>
@@ -219,7 +215,7 @@ method 4 ...
           <p><strong>Annotate both functional and test code but not documentation files.</strong></p>
         </li>
         <li>
-          <p><strong>Annotate only significant size code blocks that can be reviewed on its own</strong> <span class="dimmed"> e.g., a class, a sequence of methods, a  method.</span> <br> <strong>Claiming credit for code blocks smaller than a method is discouraged</strong>            but allowed. If you do, do it sparingly and only claim meaningful blocks of code such as a block of statements, a loop, or an if-else statement%%.</p>
+          <p><strong>Annotate only significant size code blocks that can be reviewed on its own</strong><span class="dimmed"> e.g., a class, a sequence of methods, a  method.</span><br><strong>Claiming credit for code blocks smaller than a method is discouraged</strong>            but allowed. If you do, do it sparingly and only claim meaningful blocks of code such as a block of statements, a loop, or an if-else statement%%.</p>
           <ul>
             <li>If an enhancement required you to do tiny changes in many places, there is no need to collate all those tiny changes; you can describe those changes in the Project Portfolio page instead.</li>
             <li>If a code block was touched by more than one person, either let the person who wrote most of it (e.g. more than 80%) take credit for the entire block, or leave it as 'unclaimed' (i.e., no author tags).</li>
@@ -346,4 +342,4 @@ java -jar Collate-TUI.jar collate from unused to collated/unused include java, f
   </li>
 </ul>
 <h3 id="v12-demo">v1.2 Demo</h3>
-<p>Do an informal demo of the new feature during the tutorial. <mark>Each team member should demo their own work, using commit tagged as <code>v1.2</code> in the <code>master</code> branch</mark> <span class="dimmed"> i.e. only features included in the current release should be demoed</span>.</p>
+<p>Do an informal demo of the new feature during the tutorial. <mark>Each team member should demo their own work, using commit tagged as <code>v1.2</code> in the <code>master</code> branch</mark><span class="dimmed"> i.e. only features included in the current release should be demoed</span>.</p>
