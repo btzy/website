@@ -104,9 +104,9 @@
                   <panel header=":lock::key: procedural vs OOP">
                     <question>
                       <p>OO is a higher level mechanism than the procedural paradigm.</p>
-                      <ul radio-group="isdbn" class="radio-list">
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="isdbn" type="radio"> True</label></li>
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="isdbn" type="radio"> False</label></li>
+                      <ul radio-group="07027" class="radio-list">
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="07027" type="radio"> True</label></li>
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="07027" type="radio"> False</label></li>
                       </ul>
                       <div slot="answer">
                         <p>True.</p>
@@ -293,11 +293,11 @@
               <div>
                 <panel header=":muscle: Exercises" expandable="">
                   <div>
-                    <panel header=":lock: Describe objects in the given scenario">
+                    <panel header=":lock::key: Describe objects in the given scenario">
                       <question has-input="true">
                         <p>Consider the following real-world scenario.</p>
                         <tip-box>
-                          <p>Tom read a Software Engineering textbook and highlighted some of the text in it.
+                          <p>Tom read a Software Engineering textbook (he has been assigned to read the book) and highlighted some of the text in it.
                           </p>
                         </tip-box>
                         <p>Explain the following statements about OOP using the above scenario as an example.</p>
@@ -308,6 +308,93 @@
                           <li>Objects interact by sending messages.</li>
                           <li>OOP does not demand that the virtual world object network follow the real world exactly.</li>
                         </ol>
+                        <div slot="answer">
+                          <blockquote>
+                            <p>[1] Object Oriented Programming (OOP) views the world as a network of interacting objects.</p>
+                          </blockquote>
+                          <p>Interacting objects in the scenario: <code>Tom</code>, <code>SE Text Book</code> (<code>Book</code> for short), <code>Text</code>, (possibly) <code>Highlighter</code></p>
+                          <p>💡 objects usually match nouns in the description</p>
+                          <blockquote>
+                            <p>[2]Every object has both state (data) and behavior (operations on data).</p>
+                          </blockquote>
+                          <table class="markbind-table table">
+                            <thead>
+                              <tr>
+                                <th>Object</th>
+                                <th>Examples of state</th>
+                                <th>Examples of behavior</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><code>Tom</code></td>
+                                <td>memory of the text read</td>
+                                <td>read</td>
+                              </tr>
+                              <tr>
+                                <td><code>Book</code></td>
+                                <td>title</td>
+                                <td>show text</td>
+                              </tr>
+                              <tr>
+                                <td><code>Text</code></td>
+                                <td>font size</td>
+                                <td>get highlighted</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <blockquote>
+                            <p>[3] Every object has an interface and an implementation.</p>
+                          </blockquote>
+                          <ul>
+                            <li>Interface of an object consists of how other objects interact with it i.e., what other objects can do to that object</li>
+                            <li>Implementation consist of internals of the object that facilitate the interactions but not visible to other objects.</li>
+                          </ul>
+                          <table class="markbind-table table">
+                            <thead>
+                              <tr>
+                                <th>Object</th>
+                                <th>Examples of interface</th>
+                                <th>Examples of implementation</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td><code>Tom</code></td>
+                                <td>receive reading assignment</td>
+                                <td>understand/memorize the text read, remember the reading assignment</td>
+                              </tr>
+                              <tr>
+                                <td><code>Book</code></td>
+                                <td>show text, turn page</td>
+                                <td>how pages are bound to the spine</td>
+                              </tr>
+                              <tr>
+                                <td><code>Text</code></td>
+                                <td>read</td>
+                                <td>how characters/words are connected together or fixed to the book</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <blockquote>
+                            <p>[4] Objects interact by sending messages.</p>
+                          </blockquote>
+                          <p>Examples:</p>
+                          <ul>
+                            <li><code>Tom</code> sends message <code>turn page</code> to the <code>Book</code></li>
+                            <li><code>Tom</code> sends message <code>show text</code> to the <code>Book</code>. When the <code>Book</code> shows the <code>Text</code>, <code>Tom</code> sends the message <code>read</code> to the <code>Text</code> which returns
+                              the text content to <code>Tom</code>.</li>
+                            <li><code>Tom</code> sends message <code>highlight</code> to the <code>Highlighter</code> while specifying which <code>Text</code> to highlight. Then the <code>Highlighter</code> sends the message <code>highlight</code> to the
+                              specified <code>Text</code>.</li>
+                          </ul>
+                          <blockquote>
+                            <p>[5] OOP does not demand that the virtual world object network follow the real world exactly.</p>
+                          </blockquote>
+                          <p>Examples:</p>
+                          <ul>
+                            <li>A virtual world simulation of the above scenario can omit the <code>Highlighter</code> object. Instead, we can teach <code>Text</code> to highlight themselves when requested.</li>
+                          </ul>
+                        </div>
                       </question>
                     </panel>
                   </div>
@@ -653,10 +740,10 @@
                     <panel header=":lock::key: What does the navigability given by this diagram mean?">
                       <question><img src="/website/book/oopDesign/associations/navigability/images/unitItem.png" height="100">
                         <p></p>
-                        <ul radio-group="t7q3u" class="radio-list">
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="t7q3u" type="radio"> a. A <code>Unit</code> object knows about the <code>Item</code> object it is linked to</label></li>
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="t7q3u" type="radio"> b. An <code>Item</code> object knows about the <code>Unit</code> object it is linked to</label></li>
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="t7q3u" type="radio"> c. Depends on the programming language</label></li>
+                        <ul radio-group="8116c" class="radio-list">
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="8116c" type="radio"> a. A <code>Unit</code> object knows about the <code>Item</code> object it is linked to</label></li>
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="8116c" type="radio"> b. An <code>Item</code> object knows about the <code>Unit</code> object it is linked to</label></li>
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="8116c" type="radio"> c. Depends on the programming language</label></li>
                         </ul>
                         <div slot="answer">
                           <p>(a)</p>
@@ -804,9 +891,9 @@
                     <panel header=":lock::key: Which one is not recommended to use?">
                       <question>
                         <p>Which one of these is recommended not to use in UML diagrams because it adds more confusion than clarity?</p>
-                        <ul radio-group="cmkst" class="radio-list">
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="cmkst" type="radio"> a. Composition symbol</label></li>
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="cmkst" type="radio"> b. Aggregation symbol</label></li>
+                        <ul radio-group="29b56" class="radio-list">
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="29b56" type="radio"> a. Composition symbol</label></li>
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="29b56" type="radio"> b. Aggregation symbol</label></li>
                         </ul>
                         <div slot="answer">
                           <p>(b)</p>
@@ -1487,12 +1574,12 @@ AcademicStaff academicStaff = staff; // Not OK
                     <panel header=":lock::key: Concepts related to polymorphism">
                       <question>
                         <p>Which one of these is least related to how OO programs achieve polymorphism?</p>
-                        <ul radio-group="rtpsh" class="radio-list">
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="rtpsh" type="radio"> a. substitutability</label></li>
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="rtpsh" type="radio"> b. dynamic binding</label></li>
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="rtpsh" type="radio"> c. operation overloading</label></li>
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="rtpsh" type="radio"> d. interfaces</label></li>
-                          <li class="radio-list-item"><label><input class="radio-list-input" name="rtpsh" type="radio"> e. abstract classes</label></li>
+                        <ul radio-group="8bdf8" class="radio-list">
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> a. substitutability</label></li>
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> b. dynamic binding</label></li>
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> c. operation overloading</label></li>
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> d. interfaces</label></li>
+                          <li class="radio-list-item"><label><input class="radio-list-input" name="8bdf8" type="radio"> e. abstract classes</label></li>
                         </ul>
                         <div slot="answer">
                           <p>(c)</p>
@@ -1566,15 +1653,15 @@ AcademicStaff academicStaff = staff; // Not OK
                     <p></p>
                     <question>
                       In the context of OOP, what is the relationship between abstraction and encapsulation?
-                      <ul radio-group="c9y0l" class="radio-list">
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="c9y0l" type="radio"> a. They are the same thing</label></li>
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="c9y0l" type="radio"> b. They are opposites</label></li>
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="c9y0l" type="radio"> c. Encapsulation strengthens abstraction</label></li>
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="c9y0l" type="radio"> d. Abstraction strengthens encapsulation</label></li>
+                      <ul radio-group="ee8f2" class="radio-list">
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="ee8f2" type="radio"> a. They are the same thing</label></li>
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="ee8f2" type="radio"> b. They are opposites</label></li>
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="ee8f2" type="radio"> c. Encapsulation strengthens abstraction</label></li>
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="ee8f2" type="radio"> d. Abstraction strengthens encapsulation</label></li>
                       </ul>
                       <div slot="answer">
-                        <ul radio-group="tidnk" class="radio-list">
-                          <li class="radio-list-item"><label><input class="radio-list-input" checked name="tidnk" type="radio"> c. Encapsulation strengthens abstraction</label></li>
+                        <ul radio-group="a056c" class="radio-list">
+                          <li class="radio-list-item"><label><input class="radio-list-input" checked name="a056c" type="radio"> c. Encapsulation strengthens abstraction</label></li>
                         </ul>
                         <p>Explanation: We can have abstraction without encapsulation. For example, we can <em>think</em> in terms of student entities when we code in C (a procedural language). But when we use a language that has encapsulation too (e.g.,
                           in Java/C++/C#), we can package all student related data and functions into one construct (i.e. a class). This makes the ‘student’ abstraction stronger because now we can not only think in terms of students, the program can perform
@@ -1595,16 +1682,16 @@ AcademicStaff academicStaff = staff; // Not OK
                     <p></p>
                     <question>
                       Which of these do not belong to four main OO principles?
-                      <ul radio-group="xssdb" class="radio-list">
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="xssdb" type="radio"> a. Abstraction</label></li>
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="xssdb" type="radio"> b. Encapsulation</label></li>
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="xssdb" type="radio"> c. Inheritance</label></li>
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="xssdb" type="radio"> d. Substitutability</label></li>
-                        <li class="radio-list-item"><label><input class="radio-list-input" name="xssdb" type="radio"> e. Polymorphism</label></li>
+                      <ul radio-group="8d0f5" class="radio-list">
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="8d0f5" type="radio"> a. Abstraction</label></li>
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="8d0f5" type="radio"> b. Encapsulation</label></li>
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="8d0f5" type="radio"> c. Inheritance</label></li>
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="8d0f5" type="radio"> d. Substitutability</label></li>
+                        <li class="radio-list-item"><label><input class="radio-list-input" name="8d0f5" type="radio"> e. Polymorphism</label></li>
                       </ul>
                       <div slot="answer">
-                        <ul radio-group="x5tyq" class="radio-list">
-                          <li class="radio-list-item"><label><input class="radio-list-input" checked name="x5tyq" type="radio"> d. Substitutability</label></li>
+                        <ul radio-group="30555" class="radio-list">
+                          <li class="radio-list-item"><label><input class="radio-list-input" checked name="30555" type="radio"> d. Substitutability</label></li>
                         </ul>
                       </div>
                     </question>
