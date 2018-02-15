@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS2103/T Website</title>
+    <link rel="stylesheet" href="markbind\css\bootstrap.min.css">
+    <link rel="stylesheet" href="markbind\css\github.min.css">
+    <link rel="stylesheet" href="markbind\css\markbind.css">
+</head>
+<body>
+<div id="app" class="container-fluid">
+    <div>
+  <link rel="stylesheet" href="/website/css/main.css">
+  <link rel="stylesheet" href="/website/css/schedule.css">
+  <div>
+    <navbar placement="top" type="inverse"><a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T-AY1718S2</a>
+      <li><a href="/website/index.html">Schedule</a></li>
+      <dropdown text="Textbook">
+        <li><a href="/website/book/index.html" target="_blank"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Table of Contents</a></li>
+        <li><a href="/website/book/common/outcomes.html" target="_blank"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> List of all LOs</a></li>
+        <li><a href="/website/book/common/print.html" target="_blank"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Printer-Friendly(ish)</a></li>
+      </dropdown>
+      <li><a href="/website/admin/index.html">Admin</a></li>
+      <li><a href="https://docs.google.com/document/d/e/2PACX-1vQNqBNRmqyfJO2NtmbJiunrHcWMf_N_9JxbPKMi1Q3UZY2RZt9EKeoowZn79CKfhFf0vMKeQNy3jEv5/pub?embed=true">Instructors</a></li>
+      <dropdown text="IVLE">
+        <li><a href="https://ivle.nus.edu.sg/v1/Announcement/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f" target="_blank"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Announcements</a></li>
+        <li><a href="https://ivle.nus.edu.sg/v1/File/Student/default.aspx?CourseID=3b6f07b7-fd7c-466c-9b0c-ced8cff6778f&WorkbinID=4cee3535-f9b6-43c1-8b88-816ed0a3795d&FolderID=3eb8a383-e710-43af-94dc-89cd9ba234ac" target="_blank"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Submissions</a></li>
+      </dropdown>
+      <dropdown text="Discuss">
+        <li><a href="https://nus-cs2103-ay1718s2.slack.com" target="_blank"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Slack</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Forum</a></li>
+      </dropdown>
+      <dropdown text="Links">
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/website/issues" target="_blank"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Report Bugs</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Forum</a></li>
+        <li><a href="/website/schedule/overview/tutorialSchedule.html" target="_blank"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
+        <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
+        <li><a href="https://oss-generic.github.io/process/codingStandards/CodingStandard-Java.html" target="_blank"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Java Coding Standard</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/samplerepo-things" target="_blank"><span class="glyphicon glyphicon-compressed" aria-hidden="true"></span> samplerepo-things</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level1" target="_blank"><span class="glyphicon glyphicon-compressed" aria-hidden="true"></span> Addressbook-level1</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2" target="_blank"><span class="glyphicon glyphicon-compressed" aria-hidden="true"></span> Addressbook-level2</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level3" target="_blank"><span class="glyphicon glyphicon-compressed" aria-hidden="true"></span> Addressbook-level3</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level4" target="_blank"><span class="glyphicon glyphicon-compressed" aria-hidden="true"></span> Addressbook-level4</a></li>
+        <li><a href="/website/admin/projectList.html" target="_blank"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Projects List</a></li>
+      </dropdown>
+    </navbar>
+  </div>
+  <div class="website-content">
+    <panel header=":calendar: Tutorial Schedule" expandable="" no-close="">
+      <div>
+        <tip-box type="important">
+          <p>Our tutorial IDs are different from CORS. Format: <code>W09</code> means <code>Wednesday</code><code>0900</code> and so on.</p>
+        </tip-box>
+        <table class="markbind-table table">
+          <thead>
+            <tr>
+              <th>Module</th>
+              <th>Tutorial ID <span class="dimmed">(ID in CORS)</span></th>
+              <th>Time</th>
+              <th>Venue</th>
+              <th>Tutors (<a href="https://docs.google.com/document/d/126YRkm4bWW1rai3u0Szc-4mLqhIyQUVL6EC54jM5f2g/pub?embed=true">contact details</a>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CS2103T (CS)</td>
+              <td>W09 <span class="dimmed">(T4)</span></td>
+              <td><strong>W</strong>ed <strong>09</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103</td>
+              <td>W10 <span class="dimmed">(10)</span></td>
+              <td><strong>W</strong>ed <strong>10</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103T (CS)</td>
+              <td>W11 <span class="dimmed">(T6)</span></td>
+              <td><strong>W</strong>ed <strong>11</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103T (CS)</td>
+              <td>W13 <span class="dimmed">(T1)</span></td>
+              <td><strong>W</strong>ed <strong>13</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103T (CS)</td>
+              <td>W14 <span class="dimmed">(T2)</span></td>
+              <td><strong>W</strong>ed <strong>14</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103T (CS)</td>
+              <td>W15 <span class="dimmed">(T3)</span></td>
+              <td><strong>W</strong>ed <strong>15</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103T (CEG)</td>
+              <td>T09 <span class="dimmed">(C01)</span></td>
+              <td><strong>T</strong>hu <strong>09</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103</td>
+              <td>T11 <span class="dimmed">(2)</span></td>
+              <td><strong>T</strong>hu <strong>11</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103</td>
+              <td>T15 <span class="dimmed">(4)</span></td>
+              <td><strong>T</strong>hu <strong>15</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103</td>
+              <td>T16 <span class="dimmed">(5)</span></td>
+              <td><strong>T</strong>hu <strong>16</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103T (CS)</td>
+              <td>F09 <span class="dimmed">(T7)</span></td>
+              <td><strong>F</strong>ri <strong>09</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103</td>
+              <td>F11 <span class="dimmed">(9)</span></td>
+              <td><strong>F</strong>ri <strong>11</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103</td>
+              <td>F12 <span class="dimmed">(11)</span></td>
+              <td><strong>F</strong>ri <strong>12</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>CS2103T (CS)</td>
+              <td>F14 <span class="dimmed">(T5)</span></td>
+              <td><strong>F</strong>ri <strong>14</strong>00</td>
+              <td>COM1-B103 (ALL)</td>
+              <td>TBD</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><span class="dimmed">*ALL: Active Learning Room</span></p>
+      </div>
+    </panel>
+    <panel src="/website\schedule\overview\index._include_.html" name="For all weeks" header="For all weeks" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week1\index._include_.html" name="Week 1 [Jan 15]" header="Week 1 [Jan 15]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week2\index._include_.html" name="Week 2 [Jan 22]" header="Week 2 [Jan 22]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week3\index._include_.html" name="Week 3 [Jan 29]" header="Week 3 [Jan 29]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week4\index._include_.html" name=":exclamation: Week 4 [Feb 5]" header=":exclamation: Week 4 [Feb 5]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel header=":exclamation: Week 5 [Feb 12]" expanded="" no-close="">
+      <div>
+        <p><span class="dimmed">[<a href="/website/schedule/week5/outcomes.html" target="_blank">Open <em>Outcomes</em> in a new Window <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>]</span>
+        </p>
+        <panel header=":trophy: Outcomes" ctrl-lvl="1" expanded="" no-close="">
+          <div>
+            <h3 id="design">Design:</h3>
+            <p>
+              <panel type="info" src="/website\schedule\week5\outcome-classDiagram._include_.html" header="**`W5.1` Can use intermediate-level class diagrams** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <panel type="info" header="**`W5.2` Can explain single responsibility principle** :star::star::star:" no-close="">
+              <div>
+                <div></div>
+                <p></p>
+                <p><span class="dimmed"><strong><span>Supplmentary → Principles →
+</span></strong>
+                  </span>
+                </p>
+                <div>
+                  <h4 id="single-responsibility-principle-two">Single Responsibility Principle <img style="height: 1em;width: 1em;margin: 0 .05em 0 .1em;vertical-align: -0.1em;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/0032-20e3.png"></h4>
+                </div>
+                <div id="main">
+                  <div>
+                    <tip-box type="primary">
+                      <div>
+                        <p><strong>Single Responsibility Principle (SRP)</strong>: A class should have one, and only one, reason to change. <sub>-- Robert C. Martin</sub></p>
+                      </div>
+                    </tip-box>
+                    <p>If a class has only one responsibility, it needs to change only when there is a change to that responsibility.</p>
+                    <tip-box>
+                      <p>📦 Consider a <code>TextUi</code> class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command
+                        changes. Hence, such a class does not follow the SRP.</p>
+                    </tip-box>
+                  </div>
+                  <div>
+                    <div>
+                      <panel header=":paperclip:  Resources" expanded="">
+                        <ul>
+                          <li><a href="http://www.oodesign.com/single-responsibility-principle.html">An explanation of the SRP</a> from <a href="http://www.oodesign.com">www.oodesign.com</a></li>
+                          <li><a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Another explanation (more detailed)</a> by Patkos Csaba</li>
+                          <li><a href="https://drive.google.com/file/d/0ByOwmqah_nuGNHEtcU5OekdDMkk/view">A book chapter on SRP</a> - A book chapter on SRP, written by the father of the principle itself Robert C Martin.</li>
+                        </ul>
+                      </panel>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <panel header=":dart: Evidence" expanded="">
+                <p><strong>Acceptable</strong>: Evidence of having used SRP in some project.</p>
+                <p><strong>Suggested</strong>: Do the exercise in [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2/blob/master/doc/LearningOutcomes.md#follow-the-single-responsibility-principle-lo-srp">Addressbook-Level2: LO-SRP</a>]</p>
+                <div>
+                  <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2">Addressbook-Level2</a>. <mark>Only clean PRs</mark> (i.e. free of unrelated code modifications) will be accepted.</p>
+                  <p>
+                    <panel src="/website\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" name="%%Admin » Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" fragment="tutorial-pr-instructions"
+                      header="%%Admin » Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" isOpen="false" no-close="true" no-switch="true"></panel>
+                  </p>
+                </div>
+              </panel>
+            </panel>
+            <h3 id="implementation">Implementation:</h3>
+            <p>
+              <panel type="danger" src="/website\schedule\week5\outcome-inheritance._include_.html" header="**`W5.3` Can implement inheritance** :star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <p>
+              <panel type="warning" src="/website\schedule\week5\outcome-classLevelMember._include_.html" header="**`W5.4` Can implement class-level members** :star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <p>
+              <panel type="info" src="/website\schedule\week5\outcome-composition._include_.html" header="**`W5.5` Can implement composition** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <p>
+              <panel type="info" src="/website\schedule\week5\outcome-aggregation._include_.html" header="**`W5.6` Can implement aggregation** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <p>
+              <panel type="info" src="/website\schedule\week5\outcome-overloading._include_.html" header="**`W5.7` Can implement overloading** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <h3 id="requirements">Requirements:</h3>
+            <p>
+              <panel type="warning" src="/website\schedule\week5\outcome-requirements._include_.html" header="**`W5.8` Can explain requirements** :star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <p>
+              <panel type="info" src="/website\schedule\week5\outcome-gatheringRequirement._include_.html" header="**`W5.9` Can explain some techniques for gathering requirements** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <p>
+              <panel type="danger" src="/website\schedule\week5\outcome-specifyingRequirement._include_.html" header="**`W5.10` Can use some techniques for specifying requirements** :star:" no-close="true" isOpen="false" no-switch="true"></panel>
+            </p>
+            <h3 id="other">Other:</h3>
+            <panel type="danger" header="**`W5.11` Can work with a 2KLoC code base** :star: ==[Compulsory]==" expandable="">
+              <panel header=":dart: Evidence" expanded="">
+                <div>
+                  <tip-box type="important">
+                    This LO requires coordination and cooperation among team members. It also requires a few days to complete; we recommend that you start it early in the week rather than just before the tutorial day.
+                  </tip-box>
+                  <p>💡 <strong>Those who failed to produce working code at 1KLoC milestone</strong> (in week 3) can recover the lost marks by doing <em>two</em> enhancements at this milestone.</p>
+                  <p>💡 When working with existing code, a safe approach is to <strong>change the code in very small steps, each resulting in a verifiable change</strong> without breaking the app. For example, when adding a new <code>sort</code> command,
+                    the first few steps can be,</p>
+                  <ol>
+                    <li>Teach the app to accept a <code>sort</code> command but ignore it.</li>
+                    <li>Next, teach the app to direct the <code>sort</code> command to an existing command e.g. <code>sort</code> command simply invokes the <code>list</code> command internally.</li>
+                    <li>Add a <code>SortCommand</code> class but make it simply a copy of the the existing <code>ListCommand</code>. Direct the <code>sort</code> command to the new <code>SortCommand</code>.</li>
+                    <li>...</li>
+                  </ol>
+                  <p>💡 Note that you can reuse the code you write here in your final project, if applicable.</p>
+                  <h4 id="individual-component">Individual component:</h4>
+                  <p><strong>You can omit this individual component if</strong> you have worked with a code base that meets the following criteria:</p>
+                  <ul>
+                    <li>more than 2KLoC of the code base was written by other developers</li>
+                    <li>your code included automated tests</li>
+                    <li>your code was contributed via a proper revision control workflow e.g. pull requests</li>
+                  </ul>
+                  <p><strong>Requirements</strong>: Do an enhancement to [<a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2">AddressBook - Level2</a>] <span class="dimmed">e.g. add a new command</span>. It can be the same enhancement you
+                    did to AddressBook Level1 (at the 1KLoC milestone in week 3). The size of the enhancement does not matter but you must,</p>
+                  <ul>
+                    <li>update the User Guide</li>
+                    <li>update existing tests and add new tests if necessary, for both JUnit tests and I/O tests</li>
+                    <li>follow the coding standard</li>
+                    <li>follow the OOP style</li>
+                  </ul>
+                  <p>Optional but encouraged:</p>
+                  <ul>
+                    <li>Update the Developer Guide</li>
+                  </ul>
+                  <div>
+                    <p><strong>Submission</strong>: Create a PR against <a href="https://github.com/nus-cs2103-AY1718S2/addressbook-level2">Addressbook-Level2</a>. <mark>Only clean PRs</mark> (i.e. free of unrelated code modifications) will be accepted.</p>
+                    <p>
+                      <panel src="/website\admin\appendixE-gitHub._include_.html#tutorial-pr-instructions" name="%%Admin » Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" fragment="tutorial-pr-instructions"
+                        header="%%Admin » Appendix E: Using GitHub Project Hosting → Submitting Pull Requests as evidence of an LO%%" isOpen="false" no-close="true" no-switch="true"></panel>
+                    </p>
+                  </div>
+                  <h4 id="team-component">Team component:</h4>
+                  <p>The team component is <mark>to be done by all members</mark>, including those who were allowed to omit the individual component.</p>
+                  <ul>
+                    <li>
+                      <p>Review PRs created by team members in the <em>Individual Component</em> above <span class="dimmed">i.e. add review comments in the PR created against module repo</span>. You can either give suggestions to improve, or ask questions
+                        to understand, the code written by the team member.</p>
+                    </li>
+                    <li>
+                      <p><strong>Requirements</strong>: Try to ensure that each PR reviewed by <em>at least</em> one team member and each team member's PR is reviewed by at least one other team member.</p>
+                    </li>
+                    <li>
+                      <p><strong>Submission</strong>: Just update PR created in the individual component by adding comments/commits to it.</p>
+                    </li>
+                  </ul>
+                </div>
+              </panel>
+            </panel>
+          </div>
+        </panel>
+        <panel header=":clipboard: Todo" ctrl-lvl="1" no-close="">
+          <div>
+            <panel header="Admin info to read" expandable="" expanded="">
+              <p>
+                <panel type="warning" src="/website\admin\appendixB-policies._include_.html#policy-workDistribution" name="%%Admin »%% Policy on project work distribution :star::star:" fragment="policy-workDistribution" header="%%Admin »%% Policy on project work distribution :star::star:"
+                  isOpen="false" no-close="true" no-switch="true"></panel>
+              </p>
+              <p>
+                <panel type="info" src="/website\admin\appendixB-policies._include_.html#policy-responseTime" name="%%Admin »%% Policy on email response time :star::star::star:" fragment="policy-responseTime" header="%%Admin »%% Policy on email response time :star::star::star:"
+                  isOpen="false" no-close="true" no-switch="true"></panel>
+              </p>
+              <p>
+                <panel type="success" src="/website\admin\appendixB-policies._include_.html#policy-teamSize" name="%%Admin »%% Policy on grading smaller/larger teams :star::star::star::star:" fragment="policy-teamSize" header="%%Admin »%% Policy on grading smaller/larger teams :star::star::star::star:"
+                  isOpen="false" no-close="true" no-switch="true"></panel>
+                <panel type="success" src="/website\admin\appendixC-faq._include_.html#admin-faq-beanCounting" name="%%Admin »%% FAQ: Why so much bean counting? :star::star::star::star:" fragment="admin-faq-beanCounting" header="%%Admin »%% FAQ: Why so much bean counting? :star::star::star::star:"
+                  isOpen="false" no-close="true" no-switch="true"></panel>
+              </p>
+            </panel>
+          </div>
+        </panel>
+        <panel header=":raising_hand: Tutorial 5" ctrl-lvl="1" no-close=""></panel>
+        <panel header=":loudspeaker: Lecture 5" ctrl-lvl="1" no-close="">
+          <div>
+            <p><strong>E-learning</strong>: [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E5P1.%20OOP%20-%20Polymorphism.mp4">OOP - Polymorphism</a>] [<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E5P2.%20Early%20Developer%20Testing.mp4">Early Developer Testing</a>]</p>
+            <p>[<a href="http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L5.pptx">slides</a>]</p>
+          </div>
+        </panel>
+      </div>
+    </panel>
+    <panel src="/website\schedule\week6\index._include_.html" name=":exclamation: Week 6 [Feb 19]" header=":exclamation: Week 6 [Feb 19]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week7\index._include_.html" name="Week 7 [Mar 5]" header="Week 7 [Mar 5]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week8\index._include_.html" name="Week 8 [Mar 12]" header="Week 8 [Mar 12]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week9\index._include_.html" name="Week 9 [Mar 19]" header="Week 9 [Mar 19]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week10\index._include_.html" name="Week 10 [Mar 26]" header="Week 10 [Mar 26]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week11\index._include_.html" name="Week 11 [Apr 2]" header="Week 11 [Apr 2]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week12\index._include_.html" name="Week 12 [Apr 9]" header="Week 12 [Apr 9]" isOpen="false" no-close="true" no-switch="true"></panel>
+    <panel src="/website\schedule\week13\index._include_.html" name="Week 13 [Apr 16]" header="Week 13 [Apr 16]" isOpen="false" no-close="true" no-switch="true"></panel>
+  </div>
+</div>
+</div>
+</body>
+<script src="markbind\js\vue.min.js"></script>
+<script src="markbind\js\vue-strap.min.js"></script>
+<script src="markbind\js\setup.js"></script>
+</html>
