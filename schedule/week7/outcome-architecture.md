@@ -7,14 +7,14 @@
 
 <!-- ==================================================================================================== -->
 
-<panel type="danger" header="`W7.2a` Can interpret an architecture diagram :star:" expanded no-close>
+<panel type="danger" header="`W7.2b` Can interpret an architecture diagram :star:" expanded no-close>
   <include src="../../book/architecture/architectureDiagrams/reading/full.md" />
 <!-- TODO: add evidence -->
 </panel>
 
 <!-- ==================================================================================================== -->
 
-<panel type="info" header="`W7.2b` Can explain multi-level design :star::star::star:" expanded no-close>
+<panel type="info" header="`W7.2c` Can explain multi-level design :star::star::star:" expanded no-close>
   <include src="../../book/designApproaches/multilevelDesign/what/full.md"/>
   <panel header=":dart: Evidence" expanded>
 
