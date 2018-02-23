@@ -22,4 +22,5 @@ TeamFormer is a system for helping CS2103 students during team forming period. I
 
 **E-learning**: [[Architecture](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E6P1.%20Architecture.mp4)] [[Defending Your Code](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/elearn/E6P2.%20Defending%20Your%20Code.mp4)] 
 
-[[slides](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L6.pptx)]
+**Slides**: [[L4 Recap](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L4Recap.pptx)] [[L5 Recap](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L5Recap.pptx)] [[The View from the Top](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L6P1.%20The%20View%20from%20the%20Top.pptx)] [[Putting Up Defences](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L6P2.%20Putting%20Up%20Defences.pptx)] [[Project and Build Management, CI](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L6P3.%20Project%20and%20Build%20Management,%20CI.pptx)]
+
