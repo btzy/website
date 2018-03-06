@@ -28,8 +28,9 @@ We use various tools to analyze your code. ==For us to be able to identify your 
 In each Computer you use for coding, after installing Git, you should set the Git username as follows.
 
 1. Open a command window that can run Git commands (e.g., Git bash window)
-2. Run the command `git config --global user.name YOUR_GITHUB_USERNAME`<br>
-   e.g., `git config --global user.name JohnDoe`
+2. Run the command `git config --global user.name YOUR_GITHUB_USERNAME` <br>
+   e.g., `git config --global user.name JohnDoe` <br>
+   (==Note==: if you are using git for other projects, you may want to remove the `--global` flag and run the command only for cs2103 related repos)
    
 More info about setting Git username is [here](https://help.github.com/articles/setting-your-username-in-git/).
 
