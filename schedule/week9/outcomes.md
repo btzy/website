@@ -29,11 +29,13 @@
 
 <dynamic-panel type="warning" src="outcome-testingIntermediate.md" header="**`W9.5` Can use intermediate-level testing techniques** :star::star:" no-close />
 
-<dynamic-panel type="info" src="outcome-qa.md" header="**`W9.6` Can explain some QA techniques complementary to testing** :star::star::star:" no-close />
+<dynamic-panel type="danger" src="outcome-testingTypes.md" header="**`W9.6` Can explain system testing and acceptance testing** :star:" no-close />
+
+<dynamic-panel type="info" src="outcome-qa.md" header="**`W9.7` Can explain some QA techniques complementary to testing** :star::star::star:" no-close />
 
 ### Documentation:
 
-<panel type="danger" header="**`W9.7` Can describe the implementation from a developer's perspective** :star:" no-close>
+<panel type="danger" header="**`W9.8` Can describe the implementation from a developer's perspective** :star:" no-close>
   <panel header=":dart: Evidence" expanded>
   
 Covered by 'Documentation' component of v1.2:
@@ -45,11 +47,11 @@ Covered by 'Documentation' component of v1.2:
 
 ### Project Management:
 
-<dynamic-panel type="warning" src="outcome-schedule.md" header="**`W9.8` Can use basic scheduling and tracking tools** :star::star:"  no-close />
+<dynamic-panel type="warning" src="outcome-schedule.md" header="**`W9.9` Can use basic scheduling and tracking tools** :star::star:"  no-close />
 
 <!-- ==================================================================================================== -->
 
-<panel type="danger" header="**`W9.9` Can use milestones to schedule/track project progress** :star:" no-close>
+<panel type="danger" header="**`W9.10` Can use milestones to schedule/track project progress** :star:" no-close>
   <panel header=":dart: Evidence" expanded>
 
 Covered by the 'Project Management' component of v1.2:

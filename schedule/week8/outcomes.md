@@ -48,7 +48,7 @@ Covered by the 'Documentation' of component v1.1:
 
 ### Quality Assurance:
 
-<dynamic-panel type="danger" src="outcome-testingTypes.md" header="**`W8.7` Can explain different types of testing** :star:" no-close />
+<dynamic-panel type="danger" src="outcome-testingTypes.md" header="**`W8.7` Can explain unit testing and integration testing** :star:" no-close />
 
 ### Other:
 
