@@ -46,8 +46,7 @@
                 <p>Exhaustive testing of this operation can take many more test cases.</p>
               </tip-box>
               <blockquote>
-                <p>Program testing can be used to show the presence of bugs, but never to show their absence!<br>
-                  <sub>--Edsger Dijkstra</sub></p>
+                <p>Program testing can be used to show the presence of bugs, but never to show their absence!<br><sub>--Edsger Dijkstra</sub></p>
               </blockquote>
               <div id="e-and-e">
                 <p><strong>Every test case adds to the cost of testing.</strong> In some systems, a single test case can cost thousands of dollars <span class="dimmed"> e.g. on-field testing of flight-control software</span>. Therefore, <strong>test cases need to be designed to make the best use of testing resources.</strong>                  In particular:</p>
@@ -198,21 +197,18 @@ Enter side 1:
               <div v-closeable="" alt="videos: Black-box and white-box testing">
                 <p><sub>Note: these videos are from the <a href="https://www.udacity.com/course/software-development-process--ud805">Udacity course <em>Software Development Process</em> by Georgia Tech</a></sub></p>
                 <tabs>
-                
                   <tab header=":tv: Black-box vs White-box testing">
                     <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/jRwwb7iaRsU" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                     <p>
                       <hr>
                     </p>
                   </tab>
-                
                   <tab header=":tv: Black-box testing example">
                     <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/6pbB37nFUZw" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                     <p>
                       <hr>
                     </p>
                   </tab>
-                
                   <tab header=":tv: White-box testing example">
                     <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/KIAkoae6_jE" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                     <p>
@@ -291,7 +287,6 @@ Enter side 1:
                 </ul>
               </tip-box>
               <popover id="pop:epBasic-isValidMonth" title="`isValidMonth`" placement="top">
-              
                 <div slot="content">
                   <div>
                     <p><code>isValidMonth (int m): boolean</code> : returns <code>true</code> if <code>m</code> is in the range [1..12]</p>
@@ -555,8 +550,7 @@ Enter side 1:
                   </tr>
                   <tr>
                     <td>
-                      <p>[MIN_INT, 0]<br>
-                        <span class="dimmed">(MIN_INT is the minimum possible integer value allowed by the environment)</span></p>
+                      <p>[MIN_INT, 0]<br><span class="dimmed">(MIN_INT is the minimum possible integer value allowed by the environment)</span></p>
                     </td>
                     <td>
                       <p>MIN_INT, MIN_INT+1, -1, 0 , 1</p>
@@ -581,8 +575,7 @@ Enter side 1:
                   </tr>
                   <tr>
                     <td>
-                      <p>[non-empty Stack]<br>
-                        <span class="dimmed">(we assume a fixed size stack)</span></p>
+                      <p>[non-empty Stack]<br><span class="dimmed">(we assume a fixed size stack)</span></p>
                     </td>
                     <td>
                       <p>Stack with: one element, two elements, no empty spaces, only one empty space</p>
@@ -971,7 +964,7 @@ Enter side 1:
               <p>Consider the following scenario.</p>
               <tip-box>
                 <p>SUT: <code>printLabel(fruitName String, unitPrice int)</code></p>
-                <p><strong>Selected values for</strong> <code>fruitName</code> (invalid values are marked with an ❗️ ):</p>
+                <p><strong>Selected values for</strong><code>fruitName</code> (invalid values are marked with an ❗️ ):</p>
                 <table class="markbind-table table">
                   <thead>
                     <tr>
@@ -998,7 +991,7 @@ Enter side 1:
                     </tr>
                   </tbody>
                 </table>
-                <p><strong>Selected values for</strong> <code>unitPrice</code>:</p>
+                <p><strong>Selected values for</strong><code>unitPrice</code>:</p>
                 <table class="markbind-table table">
                   <thead>
                     <tr>
@@ -1135,7 +1128,8 @@ Enter side 1:
             <div>
               <p>Consider the
                 <trigger for="modal:heuristic-valid-test-case" trigger="click">test cases designed in [Heuristic: each valid input at least once in a positive test case]</trigger>.</p>
-              <modal large="" title="**Extract from Quality Assurance → Test Case Design → Combining Test Inputs → Heuristic: each valid input at least once in a positive test case**" id="modal:heuristic-valid-test-case">
+              <modal large="" title="**Extract from Quality Assurance → Test Case Design → Combining Test Inputs → Heuristic: each valid input at least once in a positive test case**"
+                id="modal:heuristic-valid-test-case">
                 <div>
                   <table class="markbind-table table">
                     <thead>
@@ -1677,8 +1671,8 @@ Enter side 1:
               <p>To increase
                 <trigger trigger="click" for="modal:usebaseBased-EandE">E&amp;E of testing</trigger>, high-priority use cases are given more attention. For example, a
                 <trigger trigger="click" for="modal:usecaseBased-scripted">scripted approach</trigger> can be used to test high priority test cases, while an exploratory approach is used to test other areas of concern that could emerge during testing.</p>
-              <modal large="" title="Quality Assurance → Test Case Design → Introduction → (extract) E&E of testing" id="modal:usebaseBased-EandE">
-              
+              <modal large="" title="Quality Assurance → Test Case Design → Introduction → (extract) E&E of testing"
+                id="modal:usebaseBased-EandE">
                 <div>
                   <p><strong>Every test case adds to the cost of testing.</strong> In some systems, a single test case can cost thousands of dollars <span class="dimmed"> e.g. on-field testing of flight-control software</span>. Therefore, <strong>test cases need to be designed to make the best use of testing resources.</strong>                    In particular:</p>
                   <ul>
@@ -1694,7 +1688,6 @@ Enter side 1:
                 </div>
               </modal>
               <modal large="" title="Textbook »" id="modal:usecaseBased-scripted">
-              
                 <div>
                   <div></div>
                   <p></p>
@@ -2038,8 +2031,7 @@ Enter side 1:
                       <div>
                         <panel header=":lock::key: add(Item) :three:">
                           <question has-input="true">
-                            <p>Assume you are testing the add(Item) method specified below.</p>
-                            <img src="/website/book/testCaseDesign/summary/exercises/images/itemList.png" height="100">
+                            <p>Assume you are testing the add(Item) method specified below.</p><img src="/website/book/testCaseDesign/summary/exercises/images/itemList.png" height="100">
                             <p></p>
                             <p>Assume i to be the Item being added.</p>
                             <p><strong>Preconditions:</strong></p>
@@ -2065,8 +2057,7 @@ Enter side 1:
                               <p>i: i != null, i == null list: contains(i)==true, contains(i)==false, count() &lt; 10, count() == 10 list == null should NOT be considered.</p>
                               <p>(b)</p>
                               <p>list: count() == 0, count() == 9, count() == 10; count() == [1|2|3|4|5|6|7|8] (1 preferred)</p>
-                              <p>(c)</p>
-                              <img src="/website/book/testCaseDesign/summary/exercises/images/count.png" height="250">
+                              <p>(c)</p><img src="/website/book/testCaseDesign/summary/exercises/images/count.png" height="250">
                               <p></p>
                             </div>
                           </question>
@@ -2075,11 +2066,9 @@ Enter side 1:
                       <div>
                         <panel header=":lock::key: setWife :three:">
                           <question has-input="true">
-                            <p>Use equivalence partitions and boundary values to choose test inputs for testing the setWife operation in the Man class.</p>
-                            <img src="/website/book/testCaseDesign/summary/exercises/images/manWoman.png" height="90">
+                            <p>Use equivalence partitions and boundary values to choose test inputs for testing the setWife operation in the Man class.</p><img src="/website/book/testCaseDesign/summary/exercises/images/manWoman.png" height="90">
                             <p></p>
-                            <div slot="answer">
-                              <img src="/website/book/testCaseDesign/summary/exercises/images/manWomanPartitions.png" height="300">
+                            <div slot="answer"><img src="/website/book/testCaseDesign/summary/exercises/images/manWomanPartitions.png" height="300">
                               <p></p>
                               <p>Partitioning ‘married’ as ‘to same woman’ and ‘to different woman’ seems redundant at first. Arguments for having it:</p>
                               <ul>
@@ -2346,8 +2335,7 @@ Enter side 1:
                   <div>
                     <panel header=":lock::key: add(Item) :three:">
                       <question has-input="true">
-                        <p>Assume you are testing the add(Item) method specified below.</p>
-                        <img src="/website/book/testCaseDesign/summary/exercises/images/itemList.png" height="100">
+                        <p>Assume you are testing the add(Item) method specified below.</p><img src="/website/book/testCaseDesign/summary/exercises/images/itemList.png" height="100">
                         <p></p>
                         <p>Assume i to be the Item being added.</p>
                         <p><strong>Preconditions:</strong></p>
@@ -2373,8 +2361,7 @@ Enter side 1:
                           <p>i: i != null, i == null list: contains(i)==true, contains(i)==false, count() &lt; 10, count() == 10 list == null should NOT be considered.</p>
                           <p>(b)</p>
                           <p>list: count() == 0, count() == 9, count() == 10; count() == [1|2|3|4|5|6|7|8] (1 preferred)</p>
-                          <p>(c)</p>
-                          <img src="/website/book/testCaseDesign/summary/exercises/images/count.png" height="250">
+                          <p>(c)</p><img src="/website/book/testCaseDesign/summary/exercises/images/count.png" height="250">
                           <p></p>
                         </div>
                       </question>
@@ -2383,11 +2370,9 @@ Enter side 1:
                   <div>
                     <panel header=":lock::key: setWife :three:">
                       <question has-input="true">
-                        <p>Use equivalence partitions and boundary values to choose test inputs for testing the setWife operation in the Man class.</p>
-                        <img src="/website/book/testCaseDesign/summary/exercises/images/manWoman.png" height="90">
+                        <p>Use equivalence partitions and boundary values to choose test inputs for testing the setWife operation in the Man class.</p><img src="/website/book/testCaseDesign/summary/exercises/images/manWoman.png" height="90">
                         <p></p>
-                        <div slot="answer">
-                          <img src="/website/book/testCaseDesign/summary/exercises/images/manWomanPartitions.png" height="300">
+                        <div slot="answer"><img src="/website/book/testCaseDesign/summary/exercises/images/manWomanPartitions.png" height="300">
                           <p></p>
                           <p>Partitioning ‘married’ as ‘to same woman’ and ‘to different woman’ seems redundant at first. Arguments for having it:</p>
                           <ul>

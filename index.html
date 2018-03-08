@@ -15,8 +15,7 @@
   <link rel="stylesheet" href="/website/css/main.css">
   <link rel="stylesheet" href="/website/css/schedule.css">
   <div>
-    <navbar placement="top" type="inverse">
-      <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T-AY1718S2</a>
+    <navbar placement="top" type="inverse"><a slot="brand" href="/website/index.html" title="Home" class="navbar-brand">CS2103/T-AY1718S2</a>
       <li><a href="/website/index.html">Schedule</a></li>
       <dropdown text="Textbook">
         <li><a href="/website/book/index.html" target="_blank"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Table of Contents</a></li>
@@ -34,7 +33,7 @@
         <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Forum</a></li>
       </dropdown>
       <dropdown text="Links">
-        <li><a href="https://github.com/nus-cs2103-AY1718S2/website/issues" target="_blank"> <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Report Bugs</a></li>
+        <li><a href="https://github.com/nus-cs2103-AY1718S2/website/issues" target="_blank"><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Report Bugs</a></li>
         <li><a href="https://github.com/nus-cs2103-AY1718S2/forum/issues" target="_blank"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Forum</a></li>
         <li><a href="/website/schedule/overview/tutorialSchedule.html" target="_blank"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Tutorial Schedule</a></li>
         <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-MyLw2vxPkkDN7Lfi9J0PIE2iC3TRPXuhXWMO4xTYu5JXmuCKJLluTlnmMrzpTOFihyacbKq4hBbY/pubhtml" target="_blank"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Team IDs</a></li>
@@ -52,7 +51,7 @@
     <panel header=":calendar: Tutorial Schedule" expandable="" no-close="">
       <div>
         <tip-box type="important">
-          <p>Our tutorial IDs are different from CORS. Format: <code>W09</code> means <code>Wednesday</code> <code>0900</code> and so on.</p>
+          <p>Our tutorial IDs are different from CORS. Format: <code>W09</code> means <code>Wednesday</code><code>0900</code> and so on.</p>
         </tip-box>
         <table class="markbind-table table">
           <thead>
@@ -269,7 +268,6 @@
             <p>
               <panel type="info" src="/website\schedule\week7\outcome-assertion._include_.html" header="**`W7.6` Can use assertions** :star::star::star:" no-close="true" isOpen="false" no-switch="true"></panel>
             </p>
-
             <panel type="success" header="**`W7.7` Can use Java8 streams :star::star::star::star:**" no-close="">
               <div>
                 <div></div>
@@ -291,7 +289,6 @@
                       <panel header=":paperclip: Resources" expanded="">
                         <p><strong>Tutorials</strong>:</p>
                         <tabs>
-                        
                           <tab header=":abc:">
                             <ul>
                               <li><a href="https://www.tutorialspoint.com/java8/"><strong>Java 8 Tutorial</strong></a> -- from <a href="http://tutorialspoint.com">tutorialspoint.com</a>. 💡 Also provides a way to try out code online</li>
@@ -301,14 +298,12 @@
                               <hr>
                             </p>
                           </tab>
-                        
                           <tab header=":tv:">
                             <p>A video tutorial by well-known Java coach Venkat Subramaniam</p>
                             <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Ee5t_EGjv0A" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                             <panel type="seamless" header="A a more detailed version covering similar grounds">
                               <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/1OpAgZvYXLQ" frameborder="0" width="640" height="390" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div>
                             </panel>
-                          
                             <hr>
                           </tab>
                         </tabs>
@@ -362,8 +357,7 @@
             <div>
               <panel header=":lock: Explain Sequence Diagram (ParserFactory)">
                 <question>
-                  <p>Explain the interactions depicted in this sequence diagram.</p>
-                  <img src="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/images/parserFactory.png" height="300">
+                  <p>Explain the interactions depicted in this sequence diagram.</p><img src="/website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/images/parserFactory.png" height="300">
                   <p></p>
                   <div slot="hint">
                     <p>First, the <code>createParser()</code> method of an existing <code>ParserFactory</code> object is called. Then, ...</p>
