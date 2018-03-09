@@ -1,1 +1,3 @@
-[[slides](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L8.pptx)]
+**E-learning**: [Coming Soon]
+
+**Slides**: [After Lecture]
