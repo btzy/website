@@ -1,1 +1,3 @@
-[[slides](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L9.pptx)]
+**E-learning**: [(Tentative) No eLearning this week] 
+
+**Slides**: [After lecture]
