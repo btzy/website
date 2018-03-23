@@ -1,1 +1,3 @@
-[[slides](http://www.comp.nus.edu.sg/~cs2103/AY1718S2/slides/L10.pptx)]
+**E-learning**: [TBA] 
+
+**Slides**: [**No Lecture** due to Good Friday - Video Recording will be released]

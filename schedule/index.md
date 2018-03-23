@@ -15,15 +15,15 @@
 <include src="week5/index.md" name="Week 5 [Feb 12]" dynamic/> 
 <include src="week6/index.md" name="Week 6 [Feb 19]" dynamic/> 
 <include src="week7/index.md" name="Week 7 [Mar 5]" dynamic/>
-<include src="week8/index.md" name=":exclamation: Week 8 [Mar 12]" dynamic  />
+<include src="week8/index.md" name="Week 8 [Mar 12]" dynamic  />
 
+<include src="week9/index.md" name=":exclamation: Week 9 [Mar 19]"/>
 
-<panel header=":exclamation: Week 9 [Mar 19]" expanded no-close>
-<include src="week9/index.md"/>
+<panel header=":exclamation: Week 10 [Mar 26]" expanded no-close>
+<include src="week10/index.md"/>
 </panel>
 
-<include src="week10/index.md" name=":exclamation: Week 10 [Mar 26]" dynamic />
-<include src="week11/index.md" name="Week 11 [Apr 2]" dynamic />
+<include src="week11/index.md" name=":exclamation: Week 11 [Apr 2]" dynamic />
 <include src="week12/index.md" name="Week 12 [Apr 9]" dynamic />
 <include src="week13/index.md" name="Week 13 [Apr 16]" dynamic />
 </div>
