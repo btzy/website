@@ -63,7 +63,7 @@ As before.
 
 <tip-box type="important"> 
   
-Taking part in v1.4 is compulsory and counts for participation marks.
+Taking part in v1.4 is compulsory and counts for individual milestone.
 
 </tip-box>
 
@@ -74,23 +74,22 @@ v1.4 is subjected to a round of _peer testing_.
 * **To help you improve your product** before the final submission.
   
 **When, where**: 
-* To be done **during Lecture 11** (but you can do it from anywhere, not necessarily lecture venue). Suggested duration: **30 minutes** (we'll stop the lecture for a 30 minute block for you do do the testing).
+* To be done **during Lecture 11** at lecture venue. Suggested duration: **~1 hour**.
 
 **During the session**:
 * Each student will be assigned a product from another team to test.
 * Download the latest jar file from the team's GitHub page. ==Copy it to an empty folder==. 
 * Test the product based on the user guide. First, _acceptance test_ it from the perspective of the target user profile. If there is any time left, you can switch to _system testing_ mode.
-* Post bugs you find in the team's issue tracker. 
+* Post bugs you find in a proxy issue tracker (details will be given). 
   * Each bug should be a separate issue.
   * Even problems in the user guide %%&nbsp;e.g. lack of explanations%% can be posted as issues.
   * Feel free to ==post other suggestions for improvements== too %%&nbsp;e.g. ways to improve the command format%%.
 * ==Do not use the session time to read bug reports your team is receiving.==
-* Before posting a report/suggestion, check if it is already posted by someone else. If it is, post in the same thread to confirm/support the issue and add your input.
 * Use descriptive titles for the issues. Give a good description of the bug/suggestion, including steps required to reproduce.
   * :bulb: Be diplomatic when reporting bugs or suggesting improvements. For example, instead of criticising the current behavior, simply suggest alternatives to consider.
   
 **Grading**:
-* Considered for phase B participation. In addition, issues you created can be include it in your <trigger trigger="click" for="modal:v1.4-ppp">project portfolio page</trigger> to show how you contributed to another project.
+* Considered for phase B personal milestone. In addition, issues you created can be include it in your <trigger trigger="click" for="modal:v1.4-ppp">project portfolio page</trigger> to show how you contributed to another project.
 * There is **no penalty for bugs reported** in your product.
   
 <modal large title="Admin » Project →" id="modal:v1.4-ppp">
