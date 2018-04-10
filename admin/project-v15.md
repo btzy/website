@@ -33,7 +33,7 @@ This is as a ‘production release’. It should be at least ‘near production 
 * **Executable**: See summary of submissions above 
     
 
-**Deadline**: Week 13 Monday 23.59.
+**Deadline**: Week 12 Sunday 23.59.
 
 **Grading**: 
 
@@ -119,7 +119,7 @@ Next, convert the following documents to pdf (AB4 dev guide has some instruction
 
 <tip-box type="important"> 
 
-**Compulsory. Graded ==(accounting for about 10 marks in total)==**. 
+**Compulsory. Graded ==(accounting for the QA component score (up to 10 marks))==**. 
 
 </tip-box>
 
@@ -139,7 +139,7 @@ Next, convert the following documents to pdf (AB4 dev guide has some instruction
 
 **During:** 
 
-1. **Take note of your team to test and your _Tester ID_**. Both will be given to you by the teaching team (distributed via IVLE gradebook). 
+1. **Take note of your team to test **. Team ID will be given to you by the teaching team (distributed via IVLE gradebook). 
 1. **Download from IVLE all files** submitted by the team %%&nbsp;(i.e. jar file, User Guide, Developer Guide, and Project Portfolio Pages)%% ==into an empty folder==.
 1. **[~40 minutes] Test the product and report bugs** 
    * Launch the jar file. Test it. 
@@ -148,9 +148,8 @@ Next, convert the following documents to pdf (AB4 dev guide has some instruction
    * The testing instructions in the Developer Guide can provide you some guidance but if you follow those instructions strictly, you are unlikely to find many bugs. You can deviate from the instructions to probe areas that are more likely to have bugs.
    * You can do _acceptance_ testing as well as _system_ testing.
    * Omit feature that existed in AB4. Instead, test features the team has added. 
-   * Report bugs in the [practical exam issue tracker](https://github.com/nus-cs2103-AY1718S2/pe/issues), ==not in the team's repo==. 
-     * Issue title format: `[Tester ID] Issue description` %%&nbsp;e.g. `[26] Empty name crashes app`%%
-     * Do not use team ID in bug reports %%&nbsp;Reason: to prevent others copying your bug reports%%
+   * Report bugs in the [practical exam issue tracker](URL will be given) ==not in the team's repo==. 
+     * Issue title format: `[Team ID] Issue description` %%&nbsp;e.g. `[561] Empty name crashes app`%%
    * Report bugs only. Do not post suggestions. These are considered bugs:
      * Behavior differs from the User Guide (or Developer Guide)
      * A legitimate user behavior is not handled %%&nbsp;e.g. incorrect commands, extra parameters%%
@@ -215,7 +214,7 @@ Next, convert the following documents to pdf (AB4 dev guide has some instruction
 
 **Bug Review Period**:
 
-There will be a review period for you to respond to the [bug reports](https://github.com/nus-cs2103-AY1718S2/pe-results/issues) you received.
+There will be a review period for you to respond to the [bug reports](URL will be given) you received.
 
 Duration: The review period will start around 1 day after the PE (exact time to be announced) and will last until the following **Wednesday midnight**. 
 
