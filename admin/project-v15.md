@@ -133,7 +133,7 @@ Next, convert the following documents to pdf (AB4 dev guide has some instruction
   * implementation effort :bust_in_silhouette:
   * documentation quality :bust_in_silhouette:
 
-**Time/venue:** week 13 lecture slot, but not in the lecture venue (you can do it anywhere)
+**Time/venue:** week 13 lecture slot, lecture theatre 
 
 <include src="project-testing.md#testingPreparations" />
 
