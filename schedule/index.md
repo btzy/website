@@ -25,6 +25,8 @@
 <include src="week12/index.md"/>
 </panel>
 
-<include src="week13/index.md" name=":exclamation: Week 13 [Apr 16]" dynamic />
+<panel header=":exclamation: Week 13 [Apr 16]" expanded no-close>
+<include src="week13/index.md"/>
+</panel>
 </div>
 
